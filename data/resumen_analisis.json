@@ -1,0 +1,90 @@
+{
+    "data": {
+        "rows": 143,
+        "columns": 167,
+        "participants": 143,
+        "validation_errors": [
+            "Valores faltantes en points - sexo: 143 registros",
+            "Valores faltantes en points - rol o cargo: 143 registros",
+            "Valores faltantes en points - sector o industria: 143 registros",
+            "Valores faltantes en points - nivel de formación académica: 143 registros",
+            "Valores faltantes en points - ¿has utilizado power bi antes?: 143 registros",
+            "Valores faltantes en points - ¿cuál es tu principal objetivo al tomar este curso? (selecciona hasta 2 opciones): 143 registros",
+            "Valores faltantes en points - ¿en qué áreas te gustaría enfocarte más durante el curso? (selecciona hasta 3 opciones): 143 registros",
+            "Valores faltantes en points - ¿cuál es tu experiencia previa con otras herramientas de análisis o visualización de datos?: 143 registros",
+            "Valores faltantes en points - si le gustaria saber un resumen de su resultado, colocar correo electronico.: 143 registros"
+        ]
+    },
+    "taxonomy": {
+        "questions": 48,
+        "bloom_levels": {
+            "aplicación": 16,
+            "comprensión": 15,
+            "conocimiento": 10,
+            "no clasificado": 4,
+            "evaluación": 2,
+            "análisis": 1
+        },
+        "difficulty_levels": {
+            "media": 19,
+            "básica": 18,
+            "alta": 7,
+            "no clasificada": 4
+        },
+        "categories": {
+            "visualización de datos": 10,
+            "bases de datos": 9,
+            "no clasificada": 4,
+            "power bi intermedio": 4,
+            "excel intermedio": 3,
+            "tipos de datos": 3,
+            "excel avanzado": 3,
+            "excel básico": 2,
+            "análisis de datos": 2,
+            "estadística descriptiva": 2,
+            "power bi avanzado": 2,
+            "power bi básico": 2,
+            "metodología de análisis": 1,
+            "preparación de datos": 1
+        }
+    },
+    "skills": {
+        "participants": 143,
+        "skills_analyzed": 7,
+        "objectives": 6
+    },
+    "irt": {
+        "model_type": "basic",
+        "items_analyzed": 48,
+        "implementation": "basic"
+    },
+    "factor_analysis": {
+        "components": 2,
+        "variance_explained": 0.519881478592489,
+        "skills_analyzed": 7
+    },
+    "clustering": {
+        "clusters": 2,
+        "profiles": 2,
+        "method": "silhouette"
+    },
+    "recommendations": {
+        "areas": 14,
+        "skills": 7,
+        "profiles": 2,
+        "learning_phases": 5
+    },
+    "course_plan": {
+        "modules": 5,
+        "total_sessions": 12,
+        "duration": "13-18 semanas"
+    },
+    "visualizations": {
+        "taxonomy": 6,
+        "skills": 2,
+        "clustering": 5,
+        "irt": 3,
+        "factor": 4,
+        "objectives": 3
+    }
+}

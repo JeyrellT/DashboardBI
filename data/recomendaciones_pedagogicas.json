@@ -1,0 +1,1223 @@
+{
+    "patrones_dificultad": {
+        "tipos de datos": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?",
+                    "tasa_acierto": 44.75524475524475,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "identificación de tipos",
+                    "conocimiento_clave": "diferenciar tipos de datos adecuados para diferentes casos"
+                },
+                {
+                    "pregunta": "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?",
+                    "tasa_acierto": 90.9090909090909,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "clasificación de datos",
+                    "conocimiento_clave": "diferenciar entre datos cualitativos y cuantitativos"
+                },
+                {
+                    "pregunta": "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?",
+                    "tasa_acierto": 81.81818181818183,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "clasificación de variables",
+                    "conocimiento_clave": "identificar variables ordinales en contextos reales"
+                }
+            ],
+            "mas_facil": []
+        },
+        "estadística descriptiva": {
+            "mas_dificil": [
+                {
+                    "pregunta": "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?",
+                    "tasa_acierto": 36.36363636363637,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "medidas de dispersión",
+                    "conocimiento_clave": "conocer las propiedades de diferentes medidas de dispersión"
+                }
+            ],
+            "esperado": [
+                {
+                    "pregunta": "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?",
+                    "tasa_acierto": 58.04195804195804,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "medidas de tendencia central",
+                    "conocimiento_clave": "seleccionar medidas estadísticas robustas ante outliers"
+                }
+            ],
+            "mas_facil": []
+        },
+        "visualización de datos": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "¿por qué es importante identificar correctamente si una variable es cuantitativa o cualitativa al crear un reporte?",
+                    "tasa_acierto": 100.0,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "principios de diseño",
+                    "conocimiento_clave": "entender la relación entre tipos de datos y visualizaciones adecuadas"
+                },
+                {
+                    "pregunta": "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?",
+                    "tasa_acierto": 82.51748251748252,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "selección de gráficos",
+                    "conocimiento_clave": "seleccionar visualizaciones apropiadas según el objetivo"
+                },
+                {
+                    "pregunta": "¿cuál es el propósito principal de un dashboard?",
+                    "tasa_acierto": 97.2027972027972,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "dashboards",
+                    "conocimiento_clave": "entender el propósito y función de los dashboards"
+                },
+                {
+                    "pregunta": "¿por qué es importante incluir títulos claros en las visualizaciones?",
+                    "tasa_acierto": 99.3006993006993,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "mejores prácticas",
+                    "conocimiento_clave": "entender principios de comunicación visual efectiva"
+                },
+                {
+                    "pregunta": "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?",
+                    "tasa_acierto": 70.62937062937063,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "gráficos de correlación",
+                    "conocimiento_clave": "seleccionar visualizaciones para análisis de relaciones"
+                },
+                {
+                    "pregunta": "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?",
+                    "tasa_acierto": 92.3076923076923,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "mejores prácticas",
+                    "conocimiento_clave": "entender limitaciones de diferentes tipos de visualización"
+                },
+                {
+                    "pregunta": "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?",
+                    "tasa_acierto": 51.048951048951054,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "principios de diseño",
+                    "conocimiento_clave": "reconocer principios de integridad visual"
+                },
+                {
+                    "pregunta": "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?",
+                    "tasa_acierto": 20.27972027972028,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "visualizaciones avanzadas",
+                    "conocimiento_clave": "seleccionar visualizaciones para análisis temporal y composicional"
+                },
+                {
+                    "pregunta": "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?",
+                    "tasa_acierto": 45.45454545454545,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "visualizaciones multivariables",
+                    "conocimiento_clave": "seleccionar visualizaciones para datos multidimensionales"
+                },
+                {
+                    "pregunta": "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?",
+                    "tasa_acierto": 90.20979020979021,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "principios de diseño",
+                    "conocimiento_clave": "entender principios de psicología cognitiva en visualización"
+                }
+            ],
+            "mas_facil": []
+        },
+        "análisis de datos": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?",
+                    "tasa_acierto": 93.7062937062937,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "tratamiento de outliers",
+                    "conocimiento_clave": "evaluar diferentes enfoques para manejar valores atípicos"
+                },
+                {
+                    "pregunta": "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:",
+                    "tasa_acierto": 86.01398601398601,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "patrones temporales",
+                    "conocimiento_clave": "identificar patrones de estacionalidad en series temporales"
+                }
+            ],
+            "mas_facil": []
+        },
+        "metodología de análisis": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p9. antes de generar un reporte en power bi, ¿cuál es uno de los pasos fundamentales en el análisis de datos?",
+                    "tasa_acierto": 100.0,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "preparación de datos",
+                    "conocimiento_clave": "entender el flujo de trabajo en análisis de datos"
+                }
+            ],
+            "mas_facil": []
+        },
+        "excel básico": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?",
+                    "tasa_acierto": 97.9020979020979,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "funciones básicas",
+                    "conocimiento_clave": "reconocer funciones básicas de Excel"
+                },
+                {
+                    "pregunta": "p12. para resaltar datos en excel, ¿qué opción utilizarías?",
+                    "tasa_acierto": 94.4055944055944,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "formato condicional",
+                    "conocimiento_clave": "reconocer las herramientas de formato en Excel"
+                }
+            ],
+            "mas_facil": []
+        },
+        "excel intermedio": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p11. ¿qué son las tablas dinámicas en excel?",
+                    "tasa_acierto": 78.32167832167832,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "tablas dinámicas",
+                    "conocimiento_clave": "entender el propósito y uso de tablas dinámicas"
+                },
+                {
+                    "pregunta": "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?",
+                    "tasa_acierto": 93.7062937062937,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "funciones de búsqueda",
+                    "conocimiento_clave": "aplicar funciones de búsqueda y referencia"
+                },
+                {
+                    "pregunta": "p14. en excel, la referencia $a$1:",
+                    "tasa_acierto": 86.7132867132867,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "referencias de celda",
+                    "conocimiento_clave": "entender el funcionamiento de referencias absolutas y relativas"
+                }
+            ],
+            "mas_facil": []
+        },
+        "preparación de datos": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?",
+                    "tasa_acierto": 54.54545454545454,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "estructura de datos",
+                    "conocimiento_clave": "evaluar la idoneidad de diferentes formatos de datos"
+                }
+            ],
+            "mas_facil": []
+        },
+        "excel avanzado": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?",
+                    "tasa_acierto": 77.62237762237763,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "funciones condicionales",
+                    "conocimiento_clave": "seleccionar y aplicar funciones condicionales complejas"
+                },
+                {
+                    "pregunta": "p17. al crear una tabla dinámica con jerarquías de tiempo, ¿qué función es útil para agrupar fechas automáticamente?",
+                    "tasa_acierto": 53.84615384615385,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "tablas dinámicas avanzadas",
+                    "conocimiento_clave": "aplicar técnicas de agrupación en análisis temporal"
+                },
+                {
+                    "pregunta": "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?",
+                    "tasa_acierto": 87.41258741258741,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "cálculos en tablas dinámicas",
+                    "conocimiento_clave": "aplicar cálculos personalizados en análisis de datos"
+                }
+            ],
+            "mas_facil": []
+        },
+        "bases de datos": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "¿qué es una clave primaria en una base de datos?",
+                    "tasa_acierto": 95.8041958041958,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "conceptos fundamentales",
+                    "conocimiento_clave": "reconocer elementos básicos de una base de datos"
+                },
+                {
+                    "pregunta": "¿qué significa el término \"tabla\" en una base de datos?",
+                    "tasa_acierto": 100.0,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "conceptos fundamentales",
+                    "conocimiento_clave": "reconocer terminología básica de bases de datos"
+                },
+                {
+                    "pregunta": "¿para qué sirven las relaciones entre tablas?",
+                    "tasa_acierto": 98.6013986013986,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "relaciones",
+                    "conocimiento_clave": "entender el propósito de las relaciones en bases de datos"
+                },
+                {
+                    "pregunta": "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?",
+                    "tasa_acierto": 94.4055944055944,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "tipos de relaciones",
+                    "conocimiento_clave": "identificar tipos de relaciones en contextos específicos"
+                },
+                {
+                    "pregunta": "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?",
+                    "tasa_acierto": 86.01398601398601,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "operaciones SQL",
+                    "conocimiento_clave": "reconocer operaciones básicas de consulta"
+                },
+                {
+                    "pregunta": "¿qué es la normalización de datos?",
+                    "tasa_acierto": 86.01398601398601,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "diseño de bases de datos",
+                    "conocimiento_clave": "entender conceptos de diseño de bases de datos relacionales"
+                },
+                {
+                    "pregunta": "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?",
+                    "tasa_acierto": 43.35664335664335,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "tipos de JOIN",
+                    "conocimiento_clave": "aplicar operaciones JOIN adecuadas según el caso"
+                },
+                {
+                    "pregunta": "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?",
+                    "tasa_acierto": 67.83216783216784,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "consultas avanzadas",
+                    "conocimiento_clave": "aplicar operaciones de agrupación jerárquica"
+                }
+            ],
+            "mas_facil": [
+                {
+                    "pregunta": "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?",
+                    "tasa_acierto": 74.82517482517483,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "normalización",
+                    "conocimiento_clave": "reconocer las formas normales establecidas"
+                }
+            ]
+        },
+        "power bi básico": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)",
+                    "tasa_acierto": 75.52447552447552,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "componentes de Power BI",
+                    "conocimiento_clave": "reconocer la estructura y componentes de Power BI"
+                },
+                {
+                    "pregunta": "¿qué permite hacer power query en power bi?",
+                    "tasa_acierto": 94.4055944055944,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "preparación de datos",
+                    "conocimiento_clave": "entender el propósito y funcionalidad de Power Query"
+                }
+            ],
+            "mas_facil": []
+        },
+        "no clasificada": {
+            "mas_dificil": [
+                {
+                    "pregunta": "¿has utilizado power bi antes?",
+                    "tasa_acierto": 0.0,
+                    "dificultad_esperada": "no clasificada",
+                    "subcategoria": "no clasificada",
+                    "conocimiento_clave": "no clasificado"
+                },
+                {
+                    "pregunta": "¿cuál es tu principal objetivo al tomar este curso? (selecciona hasta 2 opciones)",
+                    "tasa_acierto": 0.0,
+                    "dificultad_esperada": "no clasificada",
+                    "subcategoria": "no clasificada",
+                    "conocimiento_clave": "no clasificado"
+                },
+                {
+                    "pregunta": "¿en qué áreas te gustaría enfocarte más durante el curso? (selecciona hasta 3 opciones)",
+                    "tasa_acierto": 0.0,
+                    "dificultad_esperada": "no clasificada",
+                    "subcategoria": "no clasificada",
+                    "conocimiento_clave": "no clasificado"
+                },
+                {
+                    "pregunta": "¿cuál es tu experiencia previa con otras herramientas de análisis o visualización de datos?",
+                    "tasa_acierto": 0.0,
+                    "dificultad_esperada": "no clasificada",
+                    "subcategoria": "no clasificada",
+                    "conocimiento_clave": "no clasificado"
+                }
+            ],
+            "esperado": [],
+            "mas_facil": []
+        },
+        "power bi intermedio": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "¿qué es dax en power bi?",
+                    "tasa_acierto": 99.3006993006993,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "DAX",
+                    "conocimiento_clave": "reconocer el propósito y función de DAX"
+                },
+                {
+                    "pregunta": "¿qué diferencia hay entre una columna calculada y una medida en power bi?",
+                    "tasa_acierto": 88.11188811188812,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "DAX",
+                    "conocimiento_clave": "entender diferencias conceptuales entre medidas y columnas"
+                },
+                {
+                    "pregunta": "¿qué tipo de relación se establece por defecto entre tablas en power bi?",
+                    "tasa_acierto": 59.44055944055944,
+                    "dificultad_esperada": "básica",
+                    "subcategoria": "modelado de datos",
+                    "conocimiento_clave": "recordar configuraciones predeterminadas en Power BI"
+                },
+                {
+                    "pregunta": "¿qué es un esquema en estrella en el modelado de datos de power bi?",
+                    "tasa_acierto": 96.5034965034965,
+                    "dificultad_esperada": "media",
+                    "subcategoria": "modelado de datos",
+                    "conocimiento_clave": "entender modelos de datos dimensionales"
+                }
+            ],
+            "mas_facil": []
+        },
+        "power bi avanzado": {
+            "mas_dificil": [],
+            "esperado": [
+                {
+                    "pregunta": "¿qué función dax utilizarías para cambiar el contexto de filtro?",
+                    "tasa_acierto": 40.55944055944056,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "DAX avanzado",
+                    "conocimiento_clave": "aplicar funciones DAX para manipular contextos"
+                }
+            ],
+            "mas_facil": [
+                {
+                    "pregunta": "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?",
+                    "tasa_acierto": 75.52447552447552,
+                    "dificultad_esperada": "alta",
+                    "subcategoria": "inteligencia de tiempo",
+                    "conocimiento_clave": "aplicar funciones DAX para análisis temporal"
+                }
+            ]
+        }
+    },
+    "recomendaciones_areas": {
+        "tipos de datos": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para tipos de datos",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "estadística descriptiva": [
+            {
+                "tipo": "refuerzo prioritario",
+                "descripcion": "Enfatizar especialmente los siguientes temas que resultaron más difíciles: medidas de dispersión",
+                "enfoque": "pedagógico",
+                "actividades": [
+                    "Desarrollar ejercicios paso a paso para: conocer las propiedades de diferentes medidas de dispersión",
+                    "Proporcionar ejemplos adicionales y casos de uso real",
+                    "Considerar material complementario para estudio individual",
+                    "Aumentar tiempo dedicado a estos temas en el programa"
+                ]
+            }
+        ],
+        "visualización de datos": [
+            {
+                "tipo": "atención especial",
+                "descripcion": "Dedicar tiempo adecuado a temas avanzados: visualizaciones multivariables, visualizaciones avanzadas",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Dividir conceptos complejos en partes manejables",
+                    "Utilizar analogías y conexiones con conocimientos previos",
+                    "Proporcionar ejercicios prácticos con dificultad gradual",
+                    "Implementar evaluaciones formativas frecuentes"
+                ]
+            }
+        ],
+        "análisis de datos": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para análisis de datos",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "metodología de análisis": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para metodología de análisis",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "excel básico": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para excel básico",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "excel intermedio": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para excel intermedio",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "preparación de datos": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para preparación de datos",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "excel avanzado": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para excel avanzado",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "bases de datos": [
+            {
+                "tipo": "atención especial",
+                "descripcion": "Dedicar tiempo adecuado a temas avanzados: tipos de JOIN, consultas avanzadas",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Dividir conceptos complejos en partes manejables",
+                    "Utilizar analogías y conexiones con conocimientos previos",
+                    "Proporcionar ejercicios prácticos con dificultad gradual",
+                    "Implementar evaluaciones formativas frecuentes"
+                ]
+            },
+            {
+                "tipo": "optimización",
+                "descripcion": "Se puede avanzar más rápido en: normalización",
+                "enfoque": "ritmo",
+                "actividades": [
+                    "Cubrir estos temas de forma más concisa",
+                    "Proponer retos más avanzados para mantener el interés",
+                    "Usarlos como base para explicar conceptos más complejos",
+                    "Considerar asignar estos temas para autoaprendizaje"
+                ]
+            }
+        ],
+        "power bi básico": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para power bi básico",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "no clasificada": [
+            {
+                "tipo": "refuerzo prioritario",
+                "descripcion": "Enfatizar especialmente los siguientes temas que resultaron más difíciles: no clasificada",
+                "enfoque": "pedagógico",
+                "actividades": [
+                    "Desarrollar ejercicios paso a paso para: no clasificado",
+                    "Proporcionar ejemplos adicionales y casos de uso real",
+                    "Considerar material complementario para estudio individual",
+                    "Aumentar tiempo dedicado a estos temas en el programa"
+                ]
+            }
+        ],
+        "power bi intermedio": [
+            {
+                "tipo": "estándar",
+                "descripcion": "Seguir currículo estándar para power bi intermedio",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Seguir la secuencia pedagógica recomendada",
+                    "Balancear teoría con ejercicios prácticos",
+                    "Evaluar comprensión regularmente",
+                    "Mantener el ritmo de aprendizaje planificado"
+                ]
+            }
+        ],
+        "power bi avanzado": [
+            {
+                "tipo": "atención especial",
+                "descripcion": "Dedicar tiempo adecuado a temas avanzados: DAX avanzado",
+                "enfoque": "contenido",
+                "actividades": [
+                    "Dividir conceptos complejos en partes manejables",
+                    "Utilizar analogías y conexiones con conocimientos previos",
+                    "Proporcionar ejercicios prácticos con dificultad gradual",
+                    "Implementar evaluaciones formativas frecuentes"
+                ]
+            },
+            {
+                "tipo": "optimización",
+                "descripcion": "Se puede avanzar más rápido en: inteligencia de tiempo",
+                "enfoque": "ritmo",
+                "actividades": [
+                    "Cubrir estos temas de forma más concisa",
+                    "Proponer retos más avanzados para mantener el interés",
+                    "Usarlos como base para explicar conceptos más complejos",
+                    "Considerar asignar estos temas para autoaprendizaje"
+                ]
+            }
+        ]
+    },
+    "tasas_acierto": {
+        "sexo": 0.0,
+        "rol o cargo": 0.0,
+        "sector o industria": 0.0,
+        "nivel de formación académica": 0.0,
+        "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?": 44.75524475524475,
+        "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?": 90.9090909090909,
+        "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?": 81.81818181818183,
+        "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?": 58.04195804195804,
+        "¿por qué es importante identificar correctamente si una variable es cuantitativa o cualitativa al crear un reporte?": 100.0,
+        "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?": 93.7062937062937,
+        "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?": 36.36363636363637,
+        "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:": 86.01398601398601,
+        "p9. antes de generar un reporte en power bi, ¿cuál es uno de los pasos fundamentales en el análisis de datos?": 100.0,
+        "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?": 97.9020979020979,
+        "p11. ¿qué son las tablas dinámicas en excel?": 78.32167832167832,
+        "p12. para resaltar datos en excel, ¿qué opción utilizarías?": 94.4055944055944,
+        "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?": 93.7062937062937,
+        "p14. en excel, la referencia $a$1:": 86.7132867132867,
+        "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?": 54.54545454545454,
+        "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?": 77.62237762237763,
+        "p17. al crear una tabla dinámica con jerarquías de tiempo, ¿qué función es útil para agrupar fechas automáticamente?": 53.84615384615385,
+        "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?": 87.41258741258741,
+        "¿qué es una clave primaria en una base de datos?": 95.8041958041958,
+        "¿qué significa el término \"tabla\" en una base de datos?": 100.0,
+        "¿para qué sirven las relaciones entre tablas?": 98.6013986013986,
+        "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?": 94.4055944055944,
+        "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?": 86.01398601398601,
+        "¿qué es la normalización de datos?": 86.01398601398601,
+        "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?": 43.35664335664335,
+        "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?": 74.82517482517483,
+        "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?": 67.83216783216784,
+        "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?": 82.51748251748252,
+        "¿cuál es el propósito principal de un dashboard?": 97.2027972027972,
+        "¿por qué es importante incluir títulos claros en las visualizaciones?": 99.3006993006993,
+        "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?": 70.62937062937063,
+        "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?": 92.3076923076923,
+        "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?": 51.048951048951054,
+        "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?": 20.27972027972028,
+        "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?": 45.45454545454545,
+        "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?": 90.20979020979021,
+        "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)": 75.52447552447552,
+        "¿qué permite hacer power query en power bi?": 94.4055944055944,
+        "¿has utilizado power bi antes?": 0.0,
+        "¿qué es dax en power bi?": 99.3006993006993,
+        "¿qué diferencia hay entre una columna calculada y una medida en power bi?": 88.11188811188812,
+        "¿qué tipo de relación se establece por defecto entre tablas en power bi?": 59.44055944055944,
+        "¿qué función dax utilizarías para cambiar el contexto de filtro?": 40.55944055944056,
+        "¿qué es un esquema en estrella en el modelado de datos de power bi?": 96.5034965034965,
+        "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?": 75.52447552447552,
+        "¿cuál es tu principal objetivo al tomar este curso? (selecciona hasta 2 opciones)": 0.0,
+        "¿en qué áreas te gustaría enfocarte más durante el curso? (selecciona hasta 3 opciones)": 0.0,
+        "¿cuál es tu experiencia previa con otras herramientas de análisis o visualización de datos?": 0.0,
+        "si le gustaria saber un resumen de su resultado, colocar correo electronico.": 0.0
+    },
+    "recomendaciones_habilidades": {
+        "pensamiento analítico": {
+            "distribucion": {
+                "bajo": 4,
+                "medio": 11,
+                "alto": 55,
+                "muy alto": 73
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de pensamiento analítico",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades",
+                "Incorporar ejercicios de análisis de datos con valores atípicos",
+                "Practicar la identificación de patrones temporales en conjuntos de datos",
+                "Fomentar el razonamiento crítico para la selección de técnicas analíticas"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "orientación visual": {
+            "distribucion": {
+                "bajo": 2,
+                "medio": 14,
+                "alto": 62,
+                "muy alto": 65
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de orientación visual",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades",
+                "Realizar ejercicios de evaluación crítica de visualizaciones",
+                "Practicar la transformación de datos cuantitativos en representaciones visuales",
+                "Aplicar principios de percepción visual en el diseño de dashboards"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "pensamiento sistemático": {
+            "distribucion": {
+                "bajo": 2,
+                "medio": 9,
+                "alto": 49,
+                "muy alto": 83
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de pensamiento sistemático",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades",
+                "Practicar el modelado de relaciones complejas entre entidades",
+                "Analizar sistemas existentes desde múltiples perspectivas",
+                "Desarrollar esquemas dimensionales para análisis de datos"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "perspectiva de usuario": {
+            "distribucion": {
+                "bajo": 1,
+                "medio": 0,
+                "alto": 16,
+                "muy alto": 126
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de perspectiva de usuario",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "mentalidad de optimización": {
+            "distribucion": {
+                "bajo": 16,
+                "medio": 39,
+                "alto": 58,
+                "muy alto": 30
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de mentalidad de optimización",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "atención al detalle": {
+            "distribucion": {
+                "bajo": 38,
+                "medio": 57,
+                "alto": 39,
+                "muy alto": 9
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de atención al detalle",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        },
+        "comunicación de datos": {
+            "distribucion": {
+                "bajo": 3,
+                "medio": 21,
+                "alto": 93,
+                "muy alto": 26
+            },
+            "enfoque": "complementario",
+            "estrategia": "potenciacion",
+            "actividades": [
+                "Aprovechar niveles existentes de comunicación de datos",
+                "Proponer desafíos avanzados para participantes de nivel alto",
+                "Fomentar mentorías entre participantes con diferentes niveles",
+                "Usar esta fortaleza como base para desarrollar otras habilidades"
+            ],
+            "recomendaciones_por_nivel": {
+                "bajo": [
+                    "Comenzar con ejercicios guiados paso a paso",
+                    "Proporcionar plantillas y ejemplos detallados",
+                    "Ofrecer mayor retroalimentación y apoyo directo"
+                ],
+                "medio": [
+                    "Incrementar gradualmente la complejidad de los ejercicios",
+                    "Fomentar la reflexión sobre los procesos aplicados",
+                    "Balancear entre guía y autonomía en las actividades"
+                ],
+                "alto": [
+                    "Proponer desafíos complejos que requieran aplicación innovadora",
+                    "Fomentar la tutoría a compañeros con menor nivel",
+                    "Asignar proyectos abiertos que requieran toma de decisiones"
+                ]
+            }
+        }
+    },
+    "recomendaciones_perfiles": {
+        "gestor de negocio": {
+            "roles": [
+                "Gerente"
+            ],
+            "count": 1,
+            "enfasis": [
+                "interpretación de dashboards",
+                "kpis",
+                "toma de decisiones"
+            ],
+            "menor_enfasis": [
+                "aspectos técnicos",
+                "programación"
+            ],
+            "actividades_recomendadas": [
+                "Ejemplos de casos de negocio con dashboards",
+                "Prácticas de interpretación de indicadores",
+                "Ejercicios de toma de decisiones basada en datos",
+                "Definición y seguimiento de KPIs relevantes para el negocio"
+            ]
+        },
+        "analista tradicional": {
+            "roles": [
+                "Analista"
+            ],
+            "count": 1,
+            "enfasis": [
+                "modelado de datos",
+                "dax básico",
+                "relaciones entre tablas"
+            ],
+            "menor_enfasis": [
+                "excel básico",
+                "funciones simples"
+            ],
+            "actividades_recomendadas": [
+                "Ejercicios comparativos entre Excel y Power BI",
+                "Talleres de modelado con datos reales de negocio",
+                "Migración gradual de análisis de Excel a Power BI",
+                "Enfatizar ventajas de Power BI sobre Excel para análisis complejos"
+            ]
+        }
+    },
+    "secuencia_recomendada": [
+        {
+            "fase": "Fase 1: Fundamentos",
+            "descripcion": "Establecer bases sólidas en conceptos esenciales para análisis de datos y Power BI",
+            "temas": [
+                {
+                    "subcategoria": "funciones básicas",
+                    "categoria": "excel básico",
+                    "conocimiento_clave": "reconocer funciones básicas de Excel"
+                },
+                {
+                    "subcategoria": "formato condicional",
+                    "categoria": "excel básico",
+                    "conocimiento_clave": "reconocer las herramientas de formato en Excel"
+                },
+                {
+                    "subcategoria": "componentes de Power BI",
+                    "categoria": "power bi básico",
+                    "conocimiento_clave": "reconocer la estructura y componentes de Power BI"
+                },
+                {
+                    "subcategoria": "preparación de datos",
+                    "categoria": "power bi básico",
+                    "conocimiento_clave": "entender el propósito y funcionalidad de Power Query"
+                }
+            ],
+            "duracion_estimada": "2-3 semanas"
+        },
+        {
+            "fase": "Fase 2: Habilidades intermedias y modelado",
+            "descripcion": "Desarrollar capacidades prácticas en Excel y modelado de datos para Power BI",
+            "temas": [
+                {
+                    "subcategoria": "tipos de relaciones",
+                    "categoria": "bases de datos",
+                    "conocimiento_clave": "identificar tipos de relaciones en contextos específicos"
+                },
+                {
+                    "subcategoria": "tipos de JOIN",
+                    "categoria": "bases de datos",
+                    "conocimiento_clave": "aplicar operaciones JOIN adecuadas según el caso"
+                },
+                {
+                    "subcategoria": "modelado de datos",
+                    "categoria": "power bi intermedio",
+                    "conocimiento_clave": "entender modelos de datos dimensionales"
+                }
+            ],
+            "duracion_estimada": "3-4 semanas"
+        },
+        {
+            "fase": "Fase 3: Visualización y análisis",
+            "descripcion": "Aprender a comunicar datos efectivamente mediante visualizaciones y técnicas de análisis",
+            "temas": [
+                {
+                    "subcategoria": "principios de diseño",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "entender la relación entre tipos de datos y visualizaciones adecuadas"
+                },
+                {
+                    "subcategoria": "selección de gráficos",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "seleccionar visualizaciones apropiadas según el objetivo"
+                },
+                {
+                    "subcategoria": "dashboards",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "entender el propósito y función de los dashboards"
+                },
+                {
+                    "subcategoria": "mejores prácticas",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "entender principios de comunicación visual efectiva"
+                },
+                {
+                    "subcategoria": "gráficos de correlación",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "seleccionar visualizaciones para análisis de relaciones"
+                },
+                {
+                    "subcategoria": "visualizaciones avanzadas",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "seleccionar visualizaciones para análisis temporal y composicional"
+                },
+                {
+                    "subcategoria": "visualizaciones multivariables",
+                    "categoria": "visualización de datos",
+                    "conocimiento_clave": "seleccionar visualizaciones para datos multidimensionales"
+                },
+                {
+                    "subcategoria": "tratamiento de outliers",
+                    "categoria": "análisis de datos",
+                    "conocimiento_clave": "evaluar diferentes enfoques para manejar valores atípicos"
+                },
+                {
+                    "subcategoria": "patrones temporales",
+                    "categoria": "análisis de datos",
+                    "conocimiento_clave": "identificar patrones de estacionalidad en series temporales"
+                },
+                {
+                    "subcategoria": "preparación de datos",
+                    "categoria": "metodología de análisis",
+                    "conocimiento_clave": "entender el flujo de trabajo en análisis de datos"
+                }
+            ],
+            "duracion_estimada": "2-3 semanas"
+        },
+        {
+            "fase": "Fase 4: Power BI avanzado",
+            "descripcion": "Dominar funcionalidades avanzadas de Power BI y técnicas de DAX",
+            "temas": [
+                {
+                    "subcategoria": "DAX avanzado",
+                    "categoria": "power bi avanzado",
+                    "conocimiento_clave": "aplicar funciones DAX para manipular contextos"
+                },
+                {
+                    "subcategoria": "inteligencia de tiempo",
+                    "categoria": "power bi avanzado",
+                    "conocimiento_clave": "aplicar funciones DAX para análisis temporal"
+                }
+            ],
+            "duracion_estimada": "3-4 semanas"
+        },
+        {
+            "fase": "Fase 5: Integración y proyecto",
+            "descripcion": "Aplicar todos los conocimientos en un proyecto integrador de dashboard",
+            "temas": [
+                {
+                    "subcategoria": "proyecto integral",
+                    "categoria": "aplicación práctica",
+                    "conocimiento_clave": "integrar todas las habilidades en un dashboard completo"
+                },
+                {
+                    "subcategoria": "diseño de solución",
+                    "categoria": "aplicación práctica",
+                    "conocimiento_clave": "diseñar una solución de BI para un caso real"
+                },
+                {
+                    "subcategoria": "presentación de resultados",
+                    "categoria": "comunicación de datos",
+                    "conocimiento_clave": "comunicar hallazgos y soluciones de manera efectiva"
+                }
+            ],
+            "duracion_estimada": "2 semanas"
+        }
+    ],
+    "actividades_sugeridas": {
+        "fundamentos de datos y análisis": {
+            "básico": [
+                "Quiz interactivo sobre tipos de datos",
+                "Ejercicio de clasificación de variables",
+                "Identificación de tendencias en gráficos simples",
+                "Discusión guiada sobre casos de uso de diferentes tipos de datos"
+            ],
+            "intermedio": [
+                "Análisis de conjunto de datos con outliers",
+                "Ejercicio de selección de medidas estadísticas apropiadas",
+                "Interpretación de datos estacionales",
+                "Práctica de limpieza y preparación de datos"
+            ],
+            "avanzado": [
+                "Diseño de proceso de limpieza de datos",
+                "Análisis estadístico avanzado con Power BI",
+                "Detección y tratamiento de anomalías",
+                "Implementación de técnicas de análisis exploratorio"
+            ]
+        },
+        "habilidades en excel y tablas": {
+            "básico": [
+                "Práctica de funciones básicas (SUMA, PROMEDIO, CONTAR)",
+                "Creación de tabla dinámica simple",
+                "Aplicación de formato condicional",
+                "Ejercicios de filtrado y ordenación de datos"
+            ],
+            "intermedio": [
+                "Implementación de BUSCARV en escenarios reales",
+                "Uso de referencias mixtas en fórmulas",
+                "Diseño de tabla dinámica con agrupaciones",
+                "Creación de fórmulas anidadas para análisis"
+            ],
+            "avanzado": [
+                "Aplicación de funciones anidadas",
+                "Desarrollo de panel de control en Excel",
+                "Implementación de SUMAR.SI.CONJUNTO en análisis complejos",
+                "Creación de macros simples para automatización"
+            ]
+        },
+        "conceptos de bases de datos": {
+            "básico": [
+                "Identificación de claves primarias",
+                "Diagramación de tabla simple",
+                "Ejercicio sobre tipos de relaciones",
+                "Práctica de diseño de tabla con campos adecuados"
+            ],
+            "intermedio": [
+                "Diseño de modelo relacional simple",
+                "Ejercicios de operaciones JOIN",
+                "Normalización de datos hasta 3NF",
+                "Implementación de relaciones uno-a-muchos"
+            ],
+            "avanzado": [
+                "Diseño de modelo dimensional",
+                "Implementación de análisis ROLLUP",
+                "Optimización de consultas en modelo de datos",
+                "Creación de tabla de hechos y dimensiones"
+            ]
+        },
+        "visualización de datos": {
+            "básico": [
+                "Selección de gráfico adecuado por escenario",
+                "Mejora de visualizaciones básicas",
+                "Crítica constructiva de dashboards",
+                "Ejercicio de interpretación visual de datos"
+            ],
+            "intermedio": [
+                "Creación de dashboard temático",
+                "Visualización de correlaciones",
+                "Aplicación de principios de diseño visual",
+                "Implementación de filtros interactivos"
+            ],
+            "avanzado": [
+                "Diseño de visualizaciones para análisis multidimensional",
+                "Implementación de técnicas avanzadas de dashboard",
+                "Creación de narrativa visual con datos complejos",
+                "Optimización de dashboards para diferentes dispositivos"
+            ]
+        },
+        "conocimientos de power bi": {
+            "básico": [
+                "Tour guiado de la interfaz de Power BI",
+                "Importación y transformación básica de datos",
+                "Creación de visualizaciones simples",
+                "Publicación de informe básico"
+            ],
+            "intermedio": [
+                "Creación de medidas DAX simples",
+                "Implementación de relaciones entre tablas",
+                "Diseño de informes interactivos",
+                "Uso de jerarquías y segmentaciones"
+            ],
+            "avanzado": [
+                "Desarrollo de funciones DAX complejas",
+                "Implementación de modelo en estrella",
+                "Análisis temporal con inteligencia de tiempo",
+                "Optimización de rendimiento del modelo"
+            ]
+        }
+    }
+}
