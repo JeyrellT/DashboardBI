@@ -23,6 +23,160 @@ function formatToOneDecimal(value) {
 }
 
 /**
+ * Aplica la configuración de tema oscuro a Chart.js
+ * Debe ejecutarse cuando se cambia al tema oscuro
+ */
+function applyChartDarkMode(isDark = true) {
+    // Configuración global para todos los gráficos Chart.js
+    Chart.defaults.color = isDark ? '#e2e8f0' : '#333333';
+    Chart.defaults.borderColor = isDark ? '#374151' : '#e5e7eb';
+    
+    // Reconfigurar colores para tema oscuro/claro
+    window.CHART_COLORS = isDark ? [
+        '#60a5fa', '#34d399', '#fbbf24', '#f87171', '#a78bfa',
+        '#4ade80', '#fb923c', '#06b6d4', '#ec4899', '#94a3b8'
+    ] : [
+        '#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8',
+        '#82ca9d', '#ffc658', '#d53e4f', '#f46d43', '#fdae61'
+    ];
+    
+    // Actualizar los colores base para gráficos
+    window.COLORS = window.CHART_COLORS;
+    
+    // Regenerar todos los gráficos activos
+    regenerateAllCharts();
+}
+
+/**
+ * Regenera todos los gráficos activos
+ * Útil después de cambiar el tema
+ */
+function regenerateAllCharts() {
+    // Destruir todas las instancias existentes de Chart.js
+    Chart.instances.forEach(instance => {
+        instance.destroy();
+    });
+    
+    // Si hay datos disponibles, volver a renderizar las visualizaciones
+    if (window.dashboardData && !window.dashboardData.loading) {
+        const data = prepareVisualizationData();
+        if (data) {
+            // Renderizar gráficos según la vista actual
+            switch (app.currentView) {
+                case 'general':
+                    renderGeneralViewCharts(data);
+                    break;
+                case 'individual':
+                    renderIndividualViewCharts(app.selectedParticipant);
+                    break;
+                case 'curso':
+                    renderCursoViewCharts(app.selectedModule);
+                    break;
+                case 'analitica':
+                    renderAnaliticaViewCharts(app.currentSubview, data);
+                    break;
+            }
+        }
+    }
+}
+
+/**
+ * Renderiza los gráficos de la vista general
+ */
+function renderGeneralViewCharts(data) {
+    try {
+        // Crear el gráfico de habilidades grupales
+        createGroupSkillsChart('group-skills-chart');
+        
+        createPieChart('profiles-chart', data.clusterDistribution, null);
+        createBarChart('objectives-chart', data.objetivosMasComunes, 'Objetivos', true);
+        createBarChart('areas-chart', data.areasMasComunes, 'Áreas de Interés', true);
+        createPieChart('difficulty-chart', data.dificultadData, null);
+        createProgressBar('variance-bar', dashboardData.analisisFactorial.total_explained_variance * 100, 100);
+        createSequenceComponent('sequence-container', data.secuenciaData);
+        
+        // Poblar leyenda de perfiles
+        populateProfilesLegend(data);
+        
+        // Poblar tabla de componentes
+        populateComponentsTable(data.factorialComponentsData);
+    } catch (error) {
+        console.error('Error al crear visualizaciones en vista general:', error);
+    }
+}
+
+/**
+ * Mejora las opciones para gráficos de tipo Radar para mejor visibilidad en tema oscuro
+ * @param {object} options - Opciones actuales
+ * @returns {object} - Opciones mejoradas
+ */
+function enhanceRadarChartOptions(options) {
+    const isDarkTheme = document.documentElement.classList.contains('dark-theme');
+    
+    if (isDarkTheme) {
+        // Asegurar que las opciones existan
+        options = options || {};
+        options.scales = options.scales || {};
+        options.scales.r = options.scales.r || {};
+        options.scales.r.ticks = options.scales.r.ticks || {};
+        options.scales.r.pointLabels = options.scales.r.pointLabels || {};
+        options.plugins = options.plugins || {};
+        
+        // Mejorar visibilidad
+        options.scales.r.ticks.color = '#e2e8f0';
+        options.scales.r.pointLabels.color = '#e2e8f0';
+        options.scales.r.grid = options.scales.r.grid || {};
+        options.scales.r.angleLines = options.scales.r.angleLines || {};
+        options.scales.r.grid.color = 'rgba(255, 255, 255, 0.1)';
+        options.scales.r.angleLines.color = 'rgba(255, 255, 255, 0.2)';
+    }
+    
+    return options;
+}
+
+/**
+ * Mejora las opciones para gráficos tipo barra para mejor visibilidad en tema oscuro
+ * @param {object} options - Opciones actuales
+ * @returns {object} - Opciones mejoradas
+ */
+function enhanceBarChartOptions(options) {
+    const isDarkTheme = document.documentElement.classList.contains('dark-theme');
+    
+    if (isDarkTheme) {
+        // Asegurar que las opciones existan
+        options = options || {};
+        options.scales = options.scales || {};
+        options.scales.x = options.scales.x || {};
+        options.scales.y = options.scales.y || {};
+        options.plugins = options.plugins || {};
+        
+        // Mejorar visibilidad
+        options.scales.x.ticks = options.scales.x.ticks || {};
+        options.scales.y.ticks = options.scales.y.ticks || {};
+        
+        options.scales.x.ticks.color = '#e2e8f0';
+        options.scales.y.ticks.color = '#e2e8f0';
+        options.scales.x.grid = options.scales.x.grid || {};
+        options.scales.y.grid = options.scales.y.grid || {};
+        options.scales.x.grid.color = 'rgba(255, 255, 255, 0.05)';
+        options.scales.y.grid.color = 'rgba(255, 255, 255, 0.05)';
+    }
+    
+    return options;
+}
+
+/**
+ * Formatea un nombre/texto para mostrar con una longitud máxima
+ * @param {string} text - Texto a formatear
+ * @param {number} maxLength - Longitud máxima
+ * @returns {string} - Texto formateado
+ */
+function formatName(text, maxLength = 40) {
+    if (!text) return "";
+    return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+}
+
+/**
  * Crea un gráfico radar para visualizar habilidades
  * @param {string} containerId - ID del contenedor para el gráfico
  * @param {Array} data - Datos para el gráfico radar
@@ -84,59 +238,64 @@ function createSkillsRadarChart(containerId, data, title = "Habilidades") {
     }
     
     try {
+        let options = {
+            responsive: true,
+            maintainAspectRatio: false,
+            devicePixelRatio: window.devicePixelRatio || 1,
+            elements: {
+                line: {
+                    borderWidth: 3
+                }
+            },
+            plugins: {
+                title: {
+                    display: title !== null,
+                    text: title,
+                    font: {
+                        size: 16,
+                        weight: 'bold'
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.dataset.label}: ${context.raw.toFixed(1)}%`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                r: {
+                    angleLines: {
+                        display: true
+                    },
+                    suggestedMin: 0,
+                    suggestedMax: 100,
+                    ticks: {
+                        stepSize: 20,
+                        callback: function(value) {
+                            return value.toFixed(1) + '%';
+                        }
+                    },
+                    pointLabels: {
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            }
+        };
+        
+        // Mejorar opciones para tema oscuro si es necesario
+        options = enhanceRadarChartOptions(options);
+        
         new Chart(ctx, {
             type: 'radar',
             data: {
                 labels: labels,
                 datasets: datasets
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                devicePixelRatio: window.devicePixelRatio || 1,
-                elements: {
-                    line: {
-                        borderWidth: 3
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: title !== null,
-                        text: title,
-                        font: {
-                            size: 16,
-                            weight: 'bold'
-                        }
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                return `${context.dataset.label}: ${context.raw.toFixed(1)}%`;
-                            }
-                        }
-                    }
-                },
-                scales: {
-                    r: {
-                        angleLines: {
-                            display: true
-                        },
-                        suggestedMin: 0,
-                        suggestedMax: 100,
-                        ticks: {
-                            stepSize: 20,
-                            callback: function(value) {
-                                return value.toFixed(1) + '%';
-                            }
-                        },
-                        pointLabels: {
-                            font: {
-                                size: 12
-                            }
-                        }
-                    }
-                }
-            }
+            options: options
         });
     } catch (error) {
         console.error(`Error al crear gráfico radar:`, error);
@@ -183,6 +342,84 @@ function createBarChart(containerId, data, title, horizontal = false) {
     const indexAxis = horizontal ? 'y' : 'x';
     
     try {
+        let options = {
+            responsive: true,
+            maintainAspectRatio: false,
+            devicePixelRatio: window.devicePixelRatio || 1,
+            indexAxis: indexAxis,
+            plugins: {
+                title: {
+                    display: title !== null,
+                    text: title,
+                    font: {
+                        size: 16,
+                        weight: 'bold'
+                    }
+                },
+                legend: {
+                    display: false
+                },
+                // Agregar etiquetas de datos
+                datalabels: {
+                    color: function(context) {
+                        // Color oscuro para barras claras, color claro para barras oscuras
+                        const value = context.dataset.data[context.dataIndex];
+                        const max = Math.max(...context.dataset.data);
+                        return value > max * 0.7 ? '#fff' : '#333';
+                    },
+                    anchor: horizontal ? 'end' : 'end',
+                    align: horizontal ? 'right' : 'top',
+                    formatter: function(value) {
+                        return value.toFixed(1);
+                    },
+                    font: {
+                        weight: 'bold'
+                    },
+                    padding: 6
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${formatNumber(context.raw)} ${context.raw === 1 ? 'participante' : 'participantes'}`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        drawBorder: false,
+                        color: 'rgba(0, 0, 0, 0.05)'
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return value.toFixed(1);
+                        }
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    },
+                    ticks: {
+                        maxRotation: 45,
+                        minRotation: 45,
+                        callback: function(value) {
+                            return value.toFixed(1);
+                        }
+                    }
+                }
+            },
+            animation: {
+                duration: 1000,
+                easing: 'easeOutQuart'
+            }
+        };
+        
+        // Mejorar opciones para tema oscuro si es necesario
+        options = enhanceBarChartOptions(options);
+        
         new Chart(ctx, {
             type: 'bar',
             data: {
@@ -196,80 +433,7 @@ function createBarChart(containerId, data, title, horizontal = false) {
                     borderRadius: 4
                 }]
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                devicePixelRatio: window.devicePixelRatio || 1,
-                indexAxis: indexAxis,
-                plugins: {
-                    title: {
-                        display: title !== null,
-                        text: title,
-                        font: {
-                            size: 16,
-                            weight: 'bold'
-                        }
-                    },
-                    legend: {
-                        display: false
-                    },
-                    // Agregar etiquetas de datos
-                    datalabels: {
-                        color: function(context) {
-                            // Color oscuro para barras claras, color claro para barras oscuras
-                            const value = context.dataset.data[context.dataIndex];
-                            const max = Math.max(...context.dataset.data);
-                            return value > max * 0.7 ? '#fff' : '#333';
-                        },
-                        anchor: horizontal ? 'end' : 'end',
-                        align: horizontal ? 'right' : 'top',
-                        formatter: function(value) {
-                            return value.toFixed(1);
-                        },
-                        font: {
-                            weight: 'bold'
-                        },
-                        padding: 6
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                return `${formatNumber(context.raw)} ${context.raw === 1 ? 'participante' : 'participantes'}`;
-                            }
-                        }
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        grid: {
-                            drawBorder: false,
-                            color: 'rgba(0, 0, 0, 0.05)'
-                        },
-                        ticks: {
-                            callback: function(value) {
-                                return value.toFixed(1);
-                            }
-                        }
-                    },
-                    x: {
-                        grid: {
-                            display: false
-                        },
-                        ticks: {
-                            maxRotation: 45,
-                            minRotation: 45,
-                            callback: function(value) {
-                                return value.toFixed(1);
-                            }
-                        }
-                    }
-                },
-                animation: {
-                    duration: 1000,
-                    easing: 'easeOutQuart'
-                }
-            }
+            options: options
         });
     } catch (error) {
         console.error(`Error al crear gráfico de barras:`, error);

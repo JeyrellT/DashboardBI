@@ -5,21 +5,21 @@
             "esperado": [
                 {
                     "pregunta": "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?",
-                    "tasa_acierto": 44.75524475524475,
+                    "tasa_acierto": 44.31137724550898,
                     "dificultad_esperada": "básica",
                     "subcategoria": "identificación de tipos",
                     "conocimiento_clave": "diferenciar tipos de datos adecuados para diferentes casos"
                 },
                 {
                     "pregunta": "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?",
-                    "tasa_acierto": 90.9090909090909,
+                    "tasa_acierto": 92.21556886227546,
                     "dificultad_esperada": "básica",
                     "subcategoria": "clasificación de datos",
                     "conocimiento_clave": "diferenciar entre datos cualitativos y cuantitativos"
                 },
                 {
                     "pregunta": "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?",
-                    "tasa_acierto": 81.81818181818183,
+                    "tasa_acierto": 82.03592814371258,
                     "dificultad_esperada": "media",
                     "subcategoria": "clasificación de variables",
                     "conocimiento_clave": "identificar variables ordinales en contextos reales"
@@ -31,7 +31,7 @@
             "mas_dificil": [
                 {
                     "pregunta": "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?",
-                    "tasa_acierto": 36.36363636363637,
+                    "tasa_acierto": 34.73053892215569,
                     "dificultad_esperada": "media",
                     "subcategoria": "medidas de dispersión",
                     "conocimiento_clave": "conocer las propiedades de diferentes medidas de dispersión"
@@ -40,7 +40,7 @@
             "esperado": [
                 {
                     "pregunta": "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?",
-                    "tasa_acierto": 58.04195804195804,
+                    "tasa_acierto": 57.48502994011976,
                     "dificultad_esperada": "media",
                     "subcategoria": "medidas de tendencia central",
                     "conocimiento_clave": "seleccionar medidas estadísticas robustas ante outliers"
@@ -60,63 +60,63 @@
                 },
                 {
                     "pregunta": "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?",
-                    "tasa_acierto": 82.51748251748252,
+                    "tasa_acierto": 80.83832335329342,
                     "dificultad_esperada": "básica",
                     "subcategoria": "selección de gráficos",
                     "conocimiento_clave": "seleccionar visualizaciones apropiadas según el objetivo"
                 },
                 {
                     "pregunta": "¿cuál es el propósito principal de un dashboard?",
-                    "tasa_acierto": 97.2027972027972,
+                    "tasa_acierto": 97.0059880239521,
                     "dificultad_esperada": "básica",
                     "subcategoria": "dashboards",
                     "conocimiento_clave": "entender el propósito y función de los dashboards"
                 },
                 {
                     "pregunta": "¿por qué es importante incluir títulos claros en las visualizaciones?",
-                    "tasa_acierto": 99.3006993006993,
+                    "tasa_acierto": 99.40119760479041,
                     "dificultad_esperada": "básica",
                     "subcategoria": "mejores prácticas",
                     "conocimiento_clave": "entender principios de comunicación visual efectiva"
                 },
                 {
                     "pregunta": "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?",
-                    "tasa_acierto": 70.62937062937063,
+                    "tasa_acierto": 71.25748502994011,
                     "dificultad_esperada": "media",
                     "subcategoria": "gráficos de correlación",
                     "conocimiento_clave": "seleccionar visualizaciones para análisis de relaciones"
                 },
                 {
                     "pregunta": "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?",
-                    "tasa_acierto": 92.3076923076923,
+                    "tasa_acierto": 92.21556886227546,
                     "dificultad_esperada": "básica",
                     "subcategoria": "mejores prácticas",
                     "conocimiento_clave": "entender limitaciones de diferentes tipos de visualización"
                 },
                 {
                     "pregunta": "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?",
-                    "tasa_acierto": 51.048951048951054,
+                    "tasa_acierto": 53.293413173652695,
                     "dificultad_esperada": "media",
                     "subcategoria": "principios de diseño",
                     "conocimiento_clave": "reconocer principios de integridad visual"
                 },
                 {
                     "pregunta": "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?",
-                    "tasa_acierto": 20.27972027972028,
+                    "tasa_acierto": 19.16167664670659,
                     "dificultad_esperada": "alta",
                     "subcategoria": "visualizaciones avanzadas",
                     "conocimiento_clave": "seleccionar visualizaciones para análisis temporal y composicional"
                 },
                 {
                     "pregunta": "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?",
-                    "tasa_acierto": 45.45454545454545,
+                    "tasa_acierto": 44.91017964071856,
                     "dificultad_esperada": "alta",
                     "subcategoria": "visualizaciones multivariables",
                     "conocimiento_clave": "seleccionar visualizaciones para datos multidimensionales"
                 },
                 {
                     "pregunta": "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?",
-                    "tasa_acierto": 90.20979020979021,
+                    "tasa_acierto": 90.41916167664671,
                     "dificultad_esperada": "media",
                     "subcategoria": "principios de diseño",
                     "conocimiento_clave": "entender principios de psicología cognitiva en visualización"
@@ -129,14 +129,14 @@
             "esperado": [
                 {
                     "pregunta": "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?",
-                    "tasa_acierto": 93.7062937062937,
+                    "tasa_acierto": 94.01197604790418,
                     "dificultad_esperada": "media",
                     "subcategoria": "tratamiento de outliers",
                     "conocimiento_clave": "evaluar diferentes enfoques para manejar valores atípicos"
                 },
                 {
                     "pregunta": "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:",
-                    "tasa_acierto": 86.01398601398601,
+                    "tasa_acierto": 86.22754491017965,
                     "dificultad_esperada": "media",
                     "subcategoria": "patrones temporales",
                     "conocimiento_clave": "identificar patrones de estacionalidad en series temporales"
@@ -162,14 +162,14 @@
             "esperado": [
                 {
                     "pregunta": "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?",
-                    "tasa_acierto": 97.9020979020979,
+                    "tasa_acierto": 98.20359281437125,
                     "dificultad_esperada": "básica",
                     "subcategoria": "funciones básicas",
                     "conocimiento_clave": "reconocer funciones básicas de Excel"
                 },
                 {
                     "pregunta": "p12. para resaltar datos en excel, ¿qué opción utilizarías?",
-                    "tasa_acierto": 94.4055944055944,
+                    "tasa_acierto": 94.01197604790418,
                     "dificultad_esperada": "básica",
                     "subcategoria": "formato condicional",
                     "conocimiento_clave": "reconocer las herramientas de formato en Excel"
@@ -182,21 +182,21 @@
             "esperado": [
                 {
                     "pregunta": "p11. ¿qué son las tablas dinámicas en excel?",
-                    "tasa_acierto": 78.32167832167832,
+                    "tasa_acierto": 78.44311377245509,
                     "dificultad_esperada": "básica",
                     "subcategoria": "tablas dinámicas",
                     "conocimiento_clave": "entender el propósito y uso de tablas dinámicas"
                 },
                 {
                     "pregunta": "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?",
-                    "tasa_acierto": 93.7062937062937,
+                    "tasa_acierto": 93.41317365269461,
                     "dificultad_esperada": "media",
                     "subcategoria": "funciones de búsqueda",
                     "conocimiento_clave": "aplicar funciones de búsqueda y referencia"
                 },
                 {
                     "pregunta": "p14. en excel, la referencia $a$1:",
-                    "tasa_acierto": 86.7132867132867,
+                    "tasa_acierto": 86.22754491017965,
                     "dificultad_esperada": "media",
                     "subcategoria": "referencias de celda",
                     "conocimiento_clave": "entender el funcionamiento de referencias absolutas y relativas"
@@ -209,7 +209,7 @@
             "esperado": [
                 {
                     "pregunta": "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?",
-                    "tasa_acierto": 54.54545454545454,
+                    "tasa_acierto": 55.08982035928144,
                     "dificultad_esperada": "media",
                     "subcategoria": "estructura de datos",
                     "conocimiento_clave": "evaluar la idoneidad de diferentes formatos de datos"
@@ -222,21 +222,14 @@
             "esperado": [
                 {
                     "pregunta": "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?",
-                    "tasa_acierto": 77.62237762237763,
+                    "tasa_acierto": 76.04790419161677,
                     "dificultad_esperada": "media",
                     "subcategoria": "funciones condicionales",
                     "conocimiento_clave": "seleccionar y aplicar funciones condicionales complejas"
                 },
                 {
-                    "pregunta": "p17. al crear una tabla dinámica con jerarquías de tiempo, ¿qué función es útil para agrupar fechas automáticamente?",
-                    "tasa_acierto": 53.84615384615385,
-                    "dificultad_esperada": "media",
-                    "subcategoria": "tablas dinámicas avanzadas",
-                    "conocimiento_clave": "aplicar técnicas de agrupación en análisis temporal"
-                },
-                {
                     "pregunta": "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?",
-                    "tasa_acierto": 87.41258741258741,
+                    "tasa_acierto": 88.02395209580838,
                     "dificultad_esperada": "media",
                     "subcategoria": "cálculos en tablas dinámicas",
                     "conocimiento_clave": "aplicar cálculos personalizados en análisis de datos"
@@ -249,7 +242,7 @@
             "esperado": [
                 {
                     "pregunta": "¿qué es una clave primaria en una base de datos?",
-                    "tasa_acierto": 95.8041958041958,
+                    "tasa_acierto": 95.20958083832335,
                     "dificultad_esperada": "básica",
                     "subcategoria": "conceptos fundamentales",
                     "conocimiento_clave": "reconocer elementos básicos de una base de datos"
@@ -263,42 +256,42 @@
                 },
                 {
                     "pregunta": "¿para qué sirven las relaciones entre tablas?",
-                    "tasa_acierto": 98.6013986013986,
+                    "tasa_acierto": 98.80239520958084,
                     "dificultad_esperada": "básica",
                     "subcategoria": "relaciones",
                     "conocimiento_clave": "entender el propósito de las relaciones en bases de datos"
                 },
                 {
                     "pregunta": "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?",
-                    "tasa_acierto": 94.4055944055944,
+                    "tasa_acierto": 94.61077844311377,
                     "dificultad_esperada": "media",
                     "subcategoria": "tipos de relaciones",
                     "conocimiento_clave": "identificar tipos de relaciones en contextos específicos"
                 },
                 {
                     "pregunta": "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?",
-                    "tasa_acierto": 86.01398601398601,
+                    "tasa_acierto": 85.62874251497006,
                     "dificultad_esperada": "media",
                     "subcategoria": "operaciones SQL",
                     "conocimiento_clave": "reconocer operaciones básicas de consulta"
                 },
                 {
                     "pregunta": "¿qué es la normalización de datos?",
-                    "tasa_acierto": 86.01398601398601,
+                    "tasa_acierto": 86.22754491017965,
                     "dificultad_esperada": "media",
                     "subcategoria": "diseño de bases de datos",
                     "conocimiento_clave": "entender conceptos de diseño de bases de datos relacionales"
                 },
                 {
                     "pregunta": "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?",
-                    "tasa_acierto": 43.35664335664335,
+                    "tasa_acierto": 44.31137724550898,
                     "dificultad_esperada": "alta",
                     "subcategoria": "tipos de JOIN",
                     "conocimiento_clave": "aplicar operaciones JOIN adecuadas según el caso"
                 },
                 {
                     "pregunta": "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?",
-                    "tasa_acierto": 67.83216783216784,
+                    "tasa_acierto": 68.26347305389223,
                     "dificultad_esperada": "alta",
                     "subcategoria": "consultas avanzadas",
                     "conocimiento_clave": "aplicar operaciones de agrupación jerárquica"
@@ -307,7 +300,7 @@
             "mas_facil": [
                 {
                     "pregunta": "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?",
-                    "tasa_acierto": 74.82517482517483,
+                    "tasa_acierto": 76.64670658682635,
                     "dificultad_esperada": "alta",
                     "subcategoria": "normalización",
                     "conocimiento_clave": "reconocer las formas normales establecidas"
@@ -319,14 +312,14 @@
             "esperado": [
                 {
                     "pregunta": "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)",
-                    "tasa_acierto": 75.52447552447552,
+                    "tasa_acierto": 74.25149700598801,
                     "dificultad_esperada": "básica",
                     "subcategoria": "componentes de Power BI",
                     "conocimiento_clave": "reconocer la estructura y componentes de Power BI"
                 },
                 {
                     "pregunta": "¿qué permite hacer power query en power bi?",
-                    "tasa_acierto": 94.4055944055944,
+                    "tasa_acierto": 95.20958083832335,
                     "dificultad_esperada": "básica",
                     "subcategoria": "preparación de datos",
                     "conocimiento_clave": "entender el propósito y funcionalidad de Power Query"
@@ -373,28 +366,28 @@
             "esperado": [
                 {
                     "pregunta": "¿qué es dax en power bi?",
-                    "tasa_acierto": 99.3006993006993,
+                    "tasa_acierto": 98.80239520958084,
                     "dificultad_esperada": "básica",
                     "subcategoria": "DAX",
                     "conocimiento_clave": "reconocer el propósito y función de DAX"
                 },
                 {
                     "pregunta": "¿qué diferencia hay entre una columna calculada y una medida en power bi?",
-                    "tasa_acierto": 88.11188811188812,
+                    "tasa_acierto": 87.42514970059881,
                     "dificultad_esperada": "media",
                     "subcategoria": "DAX",
                     "conocimiento_clave": "entender diferencias conceptuales entre medidas y columnas"
                 },
                 {
                     "pregunta": "¿qué tipo de relación se establece por defecto entre tablas en power bi?",
-                    "tasa_acierto": 59.44055944055944,
+                    "tasa_acierto": 58.08383233532935,
                     "dificultad_esperada": "básica",
                     "subcategoria": "modelado de datos",
                     "conocimiento_clave": "recordar configuraciones predeterminadas en Power BI"
                 },
                 {
                     "pregunta": "¿qué es un esquema en estrella en el modelado de datos de power bi?",
-                    "tasa_acierto": 96.5034965034965,
+                    "tasa_acierto": 97.0059880239521,
                     "dificultad_esperada": "media",
                     "subcategoria": "modelado de datos",
                     "conocimiento_clave": "entender modelos de datos dimensionales"
@@ -407,7 +400,7 @@
             "esperado": [
                 {
                     "pregunta": "¿qué función dax utilizarías para cambiar el contexto de filtro?",
-                    "tasa_acierto": 40.55944055944056,
+                    "tasa_acierto": 41.91616766467065,
                     "dificultad_esperada": "alta",
                     "subcategoria": "DAX avanzado",
                     "conocimiento_clave": "aplicar funciones DAX para manipular contextos"
@@ -416,7 +409,7 @@
             "mas_facil": [
                 {
                     "pregunta": "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?",
-                    "tasa_acierto": 75.52447552447552,
+                    "tasa_acierto": 74.25149700598801,
                     "dificultad_esperada": "alta",
                     "subcategoria": "inteligencia de tiempo",
                     "conocimiento_clave": "aplicar funciones DAX para análisis temporal"
@@ -545,7 +538,7 @@
         "bases de datos": [
             {
                 "tipo": "atención especial",
-                "descripcion": "Dedicar tiempo adecuado a temas avanzados: tipos de JOIN, consultas avanzadas",
+                "descripcion": "Dedicar tiempo adecuado a temas avanzados: consultas avanzadas, tipos de JOIN",
                 "enfoque": "contenido",
                 "actividades": [
                     "Dividir conceptos complejos en partes manejables",
@@ -635,51 +628,50 @@
         "rol o cargo": 0.0,
         "sector o industria": 0.0,
         "nivel de formación académica": 0.0,
-        "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?": 44.75524475524475,
-        "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?": 90.9090909090909,
-        "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?": 81.81818181818183,
-        "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?": 58.04195804195804,
+        "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?": 44.31137724550898,
+        "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?": 92.21556886227546,
+        "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?": 82.03592814371258,
+        "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?": 57.48502994011976,
         "¿por qué es importante identificar correctamente si una variable es cuantitativa o cualitativa al crear un reporte?": 100.0,
-        "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?": 93.7062937062937,
-        "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?": 36.36363636363637,
-        "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:": 86.01398601398601,
+        "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?": 94.01197604790418,
+        "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?": 34.73053892215569,
+        "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:": 86.22754491017965,
         "p9. antes de generar un reporte en power bi, ¿cuál es uno de los pasos fundamentales en el análisis de datos?": 100.0,
-        "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?": 97.9020979020979,
-        "p11. ¿qué son las tablas dinámicas en excel?": 78.32167832167832,
-        "p12. para resaltar datos en excel, ¿qué opción utilizarías?": 94.4055944055944,
-        "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?": 93.7062937062937,
-        "p14. en excel, la referencia $a$1:": 86.7132867132867,
-        "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?": 54.54545454545454,
-        "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?": 77.62237762237763,
-        "p17. al crear una tabla dinámica con jerarquías de tiempo, ¿qué función es útil para agrupar fechas automáticamente?": 53.84615384615385,
-        "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?": 87.41258741258741,
-        "¿qué es una clave primaria en una base de datos?": 95.8041958041958,
+        "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?": 98.20359281437125,
+        "p11. ¿qué son las tablas dinámicas en excel?": 78.44311377245509,
+        "p12. para resaltar datos en excel, ¿qué opción utilizarías?": 94.01197604790418,
+        "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?": 93.41317365269461,
+        "p14. en excel, la referencia $a$1:": 86.22754491017965,
+        "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?": 55.08982035928144,
+        "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?": 76.04790419161677,
+        "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?": 88.02395209580838,
+        "¿qué es una clave primaria en una base de datos?": 95.20958083832335,
         "¿qué significa el término \"tabla\" en una base de datos?": 100.0,
-        "¿para qué sirven las relaciones entre tablas?": 98.6013986013986,
-        "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?": 94.4055944055944,
-        "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?": 86.01398601398601,
-        "¿qué es la normalización de datos?": 86.01398601398601,
-        "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?": 43.35664335664335,
-        "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?": 74.82517482517483,
-        "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?": 67.83216783216784,
-        "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?": 82.51748251748252,
-        "¿cuál es el propósito principal de un dashboard?": 97.2027972027972,
-        "¿por qué es importante incluir títulos claros en las visualizaciones?": 99.3006993006993,
-        "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?": 70.62937062937063,
-        "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?": 92.3076923076923,
-        "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?": 51.048951048951054,
-        "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?": 20.27972027972028,
-        "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?": 45.45454545454545,
-        "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?": 90.20979020979021,
-        "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)": 75.52447552447552,
-        "¿qué permite hacer power query en power bi?": 94.4055944055944,
+        "¿para qué sirven las relaciones entre tablas?": 98.80239520958084,
+        "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?": 94.61077844311377,
+        "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?": 85.62874251497006,
+        "¿qué es la normalización de datos?": 86.22754491017965,
+        "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?": 44.31137724550898,
+        "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?": 76.64670658682635,
+        "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?": 68.26347305389223,
+        "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?": 80.83832335329342,
+        "¿cuál es el propósito principal de un dashboard?": 97.0059880239521,
+        "¿por qué es importante incluir títulos claros en las visualizaciones?": 99.40119760479041,
+        "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?": 71.25748502994011,
+        "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?": 92.21556886227546,
+        "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?": 53.293413173652695,
+        "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?": 19.16167664670659,
+        "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?": 44.91017964071856,
+        "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?": 90.41916167664671,
+        "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)": 74.25149700598801,
+        "¿qué permite hacer power query en power bi?": 95.20958083832335,
         "¿has utilizado power bi antes?": 0.0,
-        "¿qué es dax en power bi?": 99.3006993006993,
-        "¿qué diferencia hay entre una columna calculada y una medida en power bi?": 88.11188811188812,
-        "¿qué tipo de relación se establece por defecto entre tablas en power bi?": 59.44055944055944,
-        "¿qué función dax utilizarías para cambiar el contexto de filtro?": 40.55944055944056,
-        "¿qué es un esquema en estrella en el modelado de datos de power bi?": 96.5034965034965,
-        "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?": 75.52447552447552,
+        "¿qué es dax en power bi?": 98.80239520958084,
+        "¿qué diferencia hay entre una columna calculada y una medida en power bi?": 87.42514970059881,
+        "¿qué tipo de relación se establece por defecto entre tablas en power bi?": 58.08383233532935,
+        "¿qué función dax utilizarías para cambiar el contexto de filtro?": 41.91616766467065,
+        "¿qué es un esquema en estrella en el modelado de datos de power bi?": 97.0059880239521,
+        "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?": 74.25149700598801,
         "¿cuál es tu principal objetivo al tomar este curso? (selecciona hasta 2 opciones)": 0.0,
         "¿en qué áreas te gustaría enfocarte más durante el curso? (selecciona hasta 3 opciones)": 0.0,
         "¿cuál es tu experiencia previa con otras herramientas de análisis o visualización de datos?": 0.0,
@@ -689,9 +681,9 @@
         "pensamiento analítico": {
             "distribucion": {
                 "bajo": 4,
-                "medio": 11,
-                "alto": 55,
-                "muy alto": 73
+                "medio": 13,
+                "alto": 66,
+                "muy alto": 84
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -725,9 +717,9 @@
         "orientación visual": {
             "distribucion": {
                 "bajo": 2,
-                "medio": 14,
-                "alto": 62,
-                "muy alto": 65
+                "medio": 16,
+                "alto": 70,
+                "muy alto": 79
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -761,9 +753,9 @@
         "pensamiento sistemático": {
             "distribucion": {
                 "bajo": 2,
-                "medio": 9,
-                "alto": 49,
-                "muy alto": 83
+                "medio": 10,
+                "alto": 57,
+                "muy alto": 98
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -798,8 +790,8 @@
             "distribucion": {
                 "bajo": 1,
                 "medio": 0,
-                "alto": 16,
-                "muy alto": 126
+                "alto": 19,
+                "muy alto": 147
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -829,10 +821,10 @@
         },
         "mentalidad de optimización": {
             "distribucion": {
-                "bajo": 16,
-                "medio": 39,
-                "alto": 58,
-                "muy alto": 30
+                "bajo": 20,
+                "medio": 45,
+                "alto": 67,
+                "muy alto": 35
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -862,10 +854,10 @@
         },
         "atención al detalle": {
             "distribucion": {
-                "bajo": 38,
-                "medio": 57,
-                "alto": 39,
-                "muy alto": 9
+                "bajo": 45,
+                "medio": 66,
+                "alto": 44,
+                "muy alto": 12
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",
@@ -896,9 +888,9 @@
         "comunicación de datos": {
             "distribucion": {
                 "bajo": 3,
-                "medio": 21,
-                "alto": 93,
-                "muy alto": 26
+                "medio": 28,
+                "alto": 108,
+                "muy alto": 28
             },
             "enfoque": "complementario",
             "estrategia": "potenciacion",

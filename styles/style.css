@@ -764,3 +764,1738 @@ canvas {
 .profile-section-experience {
     border-top: 3px solid #ed8936;
 }
+
+/* Estilos adicionales para la visualización de perfil individual */
+
+.profile-header-card {
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.profile-header-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Clases de niveles */
+.text-básico, .text-basico { color: #ef4444; }
+.text-básico-intermedio, .text-basico-intermedio { color: #f97316; }
+.text-intermedio { color: #f59e0b; }
+.text-intermedio-alto { color: #3b82f6; }
+.text-avanzado { color: #10b981; }
+
+/* Clases para prioridades */
+.bg-alta { background-color: #ffebee; }
+.text-alta { color: #c62828; }
+.border-alta { border-color: #ef5350; }
+
+.bg-media { background-color: #fff8e1; }
+.text-media { color: #f57f17; }
+.border-media { border-color: #ffd54f; }
+
+.bg-baja { background-color: #e8f5e9; }
+.text-baja { color: #2e7d32; }
+.border-baja { border-color: #66bb6a; }
+
+/* Animaciones */
+@keyframes fadeScaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.card {
+    animation: fadeScaleIn 0.3s ease-out forwards;
+}
+
+/* Mejoras para la visualización de gráficos */
+.chart-container {
+    position: relative;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.chart-container:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para tablas */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+th {
+    background-color: #f9fafb;
+    color: #4b5563;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+/* Estilos para la ruta de aprendizaje */
+.ruta-item {
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.ruta-item:before {
+    content: '';
+    position: absolute;
+    left: 0.875rem;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #e5e7eb;
+}
+
+.ruta-item:last-child:before {
+    bottom: 50%;
+}
+
+.ruta-numero {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    z-index: 10;
+}
+/* ----- ESTILOS PARA EL DASHBOARD DE PARTICIPANTE ----- */
+.participant-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabecera del perfil */
+.participant-header {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 24px;
+}
+
+.profile-header-bg {
+    background: linear-gradient(135deg, var(--primary-color), #2c5282);
+    color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-main-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-container {
+    width: 76px;
+    height: 76px;
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 4px solid white;
+}
+
+.profile-details {
+    margin-left: 16px;
+}
+
+.profile-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.profile-metrics {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.primary-metric {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.compared-metric {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.compared-metric.positive {
+    background-color: rgba(74, 222, 128, 0.3);
+}
+
+.compared-metric.negative {
+    background-color: rgba(239, 68, 68, 0.3);
+}
+
+.profile-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.profile-badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.performance-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.performance-label {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+.donut-chart {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 4px solid white;
+}
+
+.donut-value {
+    background-color: #2c5282;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.demographic-comparison {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.demographic-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+}
+
+.demographic-icon {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.demographic-value {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.demographic-metrics {
+    display: flex;
+    gap: 8px;
+}
+
+.demographic-percentile {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.demographic-diff {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.demographic-diff.positive {
+    background-color: rgba(74, 222, 128, 0.8);
+    color: white;
+}
+
+.demographic-diff.negative {
+    background-color: rgba(239, 68, 68, 0.8);
+    color: white;
+}
+
+/* Tabs de navegación */
+.dashboard-tabs {
+    margin-bottom: 24px;
+}
+
+.participant-tabs {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 8px;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    gap: 8px;
+}
+
+.participant-tabs .tab-button {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.tab-content-container {
+    margin-bottom: 32px;
+}
+
+.tab-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.tab-content-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Grid layouts */
+.overview-grid, .competency-grid, .demographic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.pathway-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 24px;
+}
+
+.wide-card, .full-width-card {
+    grid-column: span 2;
+}
+
+.wide-column {
+    grid-column: span 2;
+}
+
+/* Fortalezas y debilidades */
+.strength-card {
+    border-top: 4px solid #10b981;
+}
+
+.improvement-card {
+    border-top: 4px solid #ef4444;
+}
+
+.strength-icon {
+    color: #10b981;
+    margin-right: 8px;
+}
+
+.improvement-icon {
+    color: #ef4444;
+    margin-right: 8px;
+}
+
+.strengths-container, .improvements-container {
+    max-height: 320px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.strength-item, .improvement-item {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.strength-item {
+    background-color: #ecfdf5;
+    border-left: 4px solid #10b981;
+}
+
+.improvement-item {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+}
+
+.strength-item:hover, .improvement-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.strength-header, .improvement-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.strength-value {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.improvement-value {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+.level-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.level-básico, .level-basico {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+.level-básico-intermedio, .level-basico-intermedio {
+    background-color: #ffedd5;
+    color: #f97316;
+}
+
+.level-intermedio {
+    background-color: #fef3c7;
+    color: #f59e0b;
+}
+
+.level-intermedio-alto {
+    background-color: #dbeafe;
+    color: #3b82f6;
+}
+
+.level-avanzado {
+    background-color: #d1fae5;
+    color: #10b981;
+}
+
+/* Tabla de análisis */
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.data-table th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 16px;
+}
+
+.data-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.data-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.section-name {
+    display: flex;
+    align-items: center;
+}
+
+.section-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.level-pill {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.red-600 {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+.orange-600 {
+    background-color: #ffedd5;
+    color: #f97316;
+}
+
+.yellow-600 {
+    background-color: #fef3c7;
+    color: #f59e0b;
+}
+
+.blue-600 {
+    background-color: #dbeafe;
+    color: #3b82f6;
+}
+
+.green-600 {
+    background-color: #d1fae5;
+    color: #10b981;
+}
+
+.small-text {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.percentile-bar {
+    height: 6px;
+    background-color: #e5e7eb;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 80px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.percentile-progress {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.comparison {
+    font-weight: 600;
+}
+
+.comparison.positive {
+    color: #10b981;
+}
+
+.comparison.negative {
+    color: #ef4444;
+}
+
+.importance-pill {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.importance-pill.very-high {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+.importance-pill.high {
+    background-color: #ffedd5;
+    color: #f97316;
+}
+
+.importance-pill.medium {
+    background-color: #dbeafe;
+    color: #3b82f6;
+}
+
+/* Pestaña Competency */
+.level-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.level-legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.level-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.competency-interpretations {
+    max-height: 420px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.interpretation-item {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.interpretation-item:hover {
+    box-shadow: var(--shadow-sm);
+}
+
+.positive-bg {
+    background-color: #ecfdf5;
+    border-left: 3px solid #10b981;
+}
+
+.negative-bg {
+    background-color: #fef2f2;
+    border-left: 3px solid #ef4444;
+}
+
+.neutral-bg {
+    background-color: #f1f5f9;
+    border-left: 3px solid #64748b;
+}
+
+.interpretation-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.interpretation-title {
+    font-weight: 600;
+}
+
+.interpretation-diff {
+    font-weight: 600;
+}
+
+.interpretation-diff.positive {
+    color: #10b981;
+}
+
+.interpretation-diff.negative {
+    color: #ef4444;
+}
+
+.interpretation-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* Pestaña Demographic */
+.chart-description {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.contextual-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.contextual-profile, .contextual-interpretation {
+    background-color: #f8fafc;
+    padding: 16px;
+    border-radius: var(--border-radius);
+}
+
+.contextual-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.title-icon {
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.profile-properties {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.profile-property {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.property-label {
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.highlights-title {
+    font-weight: 600;
+    margin: 16px 0 8px;
+}
+
+.highlights-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.highlights-list li {
+    margin-bottom: 8px;
+}
+
+/* Pestaña Pathway */
+.pathway-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section-subtitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.objectives-list, .experience-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.objectives-list li, .experience-list li {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.interests-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.interest-tag {
+    background-color: #dbeafe;
+    color: #3b82f6;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+}
+
+.powerbi-experience {
+    background-color: #dbeafe;
+    padding: 12px;
+    border-radius: var(--border-radius);
+    margin-top: 16px;
+}
+
+.profile-recommendations {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.recommendation-item {
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.recommendation-item:hover {
+    box-shadow: var(--shadow-sm);
+}
+
+.high-priority {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+}
+
+.medium-priority {
+    background-color: #fff7ed;
+    border-left: 4px solid #f97316;
+}
+
+.low-priority {
+    background-color: #f1f5f9;
+    border-left: 4px solid #64748b;
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.recommendation-title {
+    font-weight: 600;
+}
+
+.priority-badge {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.high-priority-badge {
+    background-color: #fee2e2;
+    color: #ef4444;
+}
+
+.medium-priority-badge {
+    background-color: #ffedd5;
+    color: #f97316;
+}
+
+.low-priority-badge {
+    background-color: #f1f5f9;
+    color: #64748b;
+}
+
+.recommendation-text {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.recommendation-reason {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.learning-pathway {
+    padding: 8px;
+}
+
+.pathway-timeline {
+    position: relative;
+    padding-left: 40px;
+}
+
+.pathway-timeline:before {
+    content: '';
+    position: absolute;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e5e7eb;
+}
+
+.pathway-phase {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.phase-number {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 1;
+    border: 2px solid white;
+}
+
+.high-priority-number {
+    background-color: #ef4444;
+}
+
+.medium-priority-number {
+    background-color: #f97316;
+}
+
+.low-priority-number {
+    background-color: #3b82f6;
+}
+
+.phase-content {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 16px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.phase-content:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-md);
+}
+
+.high-priority-content {
+    border-left: 4px solid #ef4444;
+}
+
+.medium-priority-content {
+    border-left: 4px solid #f97316;
+}
+
+.low-priority-content {
+    border-left: 4px solid #3b82f6;
+}
+
+.phase-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.phase-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.phase-metric {
+    font-size: 0.85rem;
+}
+
+.metric-label {
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 2px;
+}
+
+.metric-value {
+    font-weight: 500;
+}
+
+.content-keys-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.content-keys-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+}
+
+.phase-approach {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.85rem;
+}
+
+.approach-label {
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.empty-message {
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 24px;
+    background-color: #f8fafc;
+    border-radius: var(--border-radius);
+}
+
+/* Responsive para el dashboard */
+@media (max-width: 1024px) {
+    .overview-grid, .competency-grid, .demographic-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pathway-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .wide-card, .full-width-card {
+        grid-column: span 1;
+    }
+    
+    .wide-column {
+        grid-column: span 1;
+    }
+    
+    .contextual-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .phase-metrics {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-header-bg {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .performance-chart {
+        margin-top: 16px;
+        align-self: center;
+    }
+    
+    .demographic-comparison {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .participant-tabs {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+    
+    .participant-tabs .tab-button {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .demographic-comparison {
+        grid-template-columns: 1fr;
+    }
+    
+    .phase-metrics {
+        grid-template-columns: 1fr;
+    }
+}
+/* Estilos para los indicadores de comparación */
+.compared-metric i.fa-arrow-up,
+.demographic-diff i.fa-arrow-up {
+    color: #4ade80;
+}
+
+.compared-metric i.fa-arrow-down,
+.demographic-diff i.fa-arrow-down {
+    color: #ef4444;
+}
+
+.compared-metric.positive {
+    background-color: rgba(74, 222, 128, 0.8);
+    color: white;
+    font-weight: bold;
+}
+
+.compared-metric.negative {
+    background-color: rgba(239, 68, 68, 0.8);
+    color: white;
+    font-weight: bold;
+}
+
+.demographic-diff {
+    font-weight: bold;
+}
+
+.demographic-diff.positive {
+    background-color: rgba(74, 222, 128, 0.8);
+    color: white;
+}
+
+.demographic-diff.negative {
+    background-color: rgba(239, 68, 68, 0.8);
+    color: white;
+}
+/* Headers de tabla con texto blanco */
+.data-table th,
+th,
+.dashboard-tabs th,
+table thead th,
+.table-container thead th {
+    background-color: #3b82f6 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* Estilo específico para la tabla de análisis detallado por grupo */
+#tab-demographic table th,
+.demographic-grid table th {
+    background-color: #3b82f6 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+    padding: 12px 16px !important;
+}
+
+/* Para asegurar que todas las tablas tengan el mismo estilo */
+table.data-table thead tr th,
+.tab-content table thead tr th {
+    background-color: #3b82f6 !important;
+    color: white !important;
+}
+/* Añadir al final de tu archivo style.css */
+
+/* Sistema de temas mejorado */
+:root {
+    /* Variables de tema claro (por defecto) */
+    --primary-color: #3182ce;
+    --primary-light: #e6f2ff;
+    --secondary-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --text-color: #333;
+    --text-muted: #666;
+    --bg-color: #f9fafc;
+    --bg-card: #ffffff;
+    --border-color: #eee;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+    
+    /* Colores de gráficos */
+    --chart-color-1: #0088FE;
+    --chart-color-2: #00C49F;
+    --chart-color-3: #FFBB28;
+    --chart-color-4: #FF8042;
+    --chart-color-5: #8884d8;
+    
+    /* Colores de nivel */
+    --nivel-bajo: #ef4444;
+    --nivel-medio: #f59e0b;
+    --nivel-alto: #10b981;
+    --nivel-muy-alto: #3b82f6;
+    
+    /* Colores de tabla */
+    --table-header-bg: #3b82f6;
+    --table-header-text: white;
+    --table-row-even: #f7fafc;
+    --table-row-hover: #ebf8ff;
+    --table-border: #edf2f7;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    --primary-color: #60a5fa;
+    --primary-light: rgba(96, 165, 250, 0.15);
+    --secondary-color: #34d399;
+    --warning-color: #fbbf24;
+    --danger-color: #f87171;
+    --text-color: #e2e8f0;
+    --text-muted: #a0aec0;
+    --bg-color: #111827;
+    --bg-card: #1f2937;
+    --border-color: #374151;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+    
+    /* Colores de gráficos adaptados para tema oscuro */
+    --chart-color-1: #60a5fa;
+    --chart-color-2: #34d399;
+    --chart-color-3: #fbbf24;
+    --chart-color-4: #f87171;
+    --chart-color-5: #a78bfa;
+    
+    /* Colores de tabla adaptados */
+    --table-header-bg: #2563eb;
+    --table-header-text: white;
+    --table-row-even: #1e293b;
+    --table-row-hover: #2c4c7c;
+    --table-border: #374151;
+}
+
+/* Estilos para el tema claro (explícito) */
+.light-theme {
+    /* Las variables por defecto del :root son para tema claro */
+    color-scheme: light; /* Añadir esta propiedad para evitar el error de regla vacía */
+}
+
+/* Aplicar variables de tema a elementos específicos */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.dashboard-header {
+    background-color: var(--bg-card);
+    border-top: 4px solid var(--primary-color);
+    color: var(--text-color);
+}
+
+.card {
+    background: var(--bg-card);
+    color: var(--text-color);
+    box-shadow: var(--shadow-md);
+}
+
+.card-title {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* Arreglos para tablas */
+.data-table th,
+th,
+.dashboard-tabs th,
+table thead th,
+.table-container thead th {
+    background-color: var(--table-header-bg) !important;
+    color: var(--table-header-text) !important;
+}
+
+table td {
+    border-bottom: 1px solid var(--table-border);
+}
+
+tbody tr:nth-child(even) { 
+    background-color: var(--table-row-even); 
+}
+
+tbody tr:hover { 
+    background-color: var(--table-row-hover); 
+}
+
+/* Estilos para el botón de cambio de tema */
+.theme-toggle {
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-2px);
+}
+
+.theme-toggle .light-icon,
+.theme-toggle .dark-icon,
+.theme-toggle .auto-icon {
+    display: none;
+    margin-right: 4px;
+}
+
+.theme-light .light-icon {
+    display: inline-block;
+    color: #f59e0b;
+}
+
+.theme-dark .dark-icon {
+    display: inline-block;
+    color: #60a5fa;
+}
+
+.theme-auto .auto-icon {
+    display: inline-block;
+    color: #a78bfa;
+}
+
+/* Otros arreglos específicos para contraste en modo oscuro */
+.dark-theme .kpi-card {
+    background-color: var(--bg-card);
+    border-top: 3px solid var(--primary-color);
+}
+
+.dark-theme .kpi-value {
+    color: var(--primary-color);
+}
+
+.dark-theme .tab-button {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark-theme .tab-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .tab-button.active {
+    background-color: var(--primary-color);
+}
+
+.dark-theme .chart-container {
+    background-color: var(--bg-card);
+}
+
+.dark-theme .progress-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme select {
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+/* Arreglar contraste en subtextos */
+.dark-theme .text-muted,
+.dark-theme .subtitle {
+    color: var(--text-muted);
+}
+
+/* Arreglos adicionales para gráficos */
+.dark-theme canvas {
+    filter: brightness(0.9);
+}
+/* Correcciones específicas para tablas en modo oscuro */
+.dark-theme table tbody tr td {
+    color: var(--text-color); /* Asegura que el texto de las celdas sea visible */
+}
+
+.dark-theme .data-table td, 
+.dark-theme tbody tr td,
+.dark-theme .dashboard-tabs td,
+.dark-theme table td {
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+.dark-theme tbody tr:nth-child(even) { 
+    background-color: rgba(30, 41, 59, 0.7) !important; /* Más oscuro que el fondo base */
+}
+
+.dark-theme tbody tr:hover { 
+    background-color: rgba(44, 76, 124, 0.6) !important; /* Azul oscuro para hover */
+}
+
+/* Estilos específicos para textos en las tablas */
+.dark-theme .section-name,
+.dark-theme .section-title,
+.dark-theme .skill-name,
+.dark-theme .small-text,
+.dark-theme .percentile-bar + span,
+.dark-theme .importance-pill,
+.dark-theme .level-pill {
+    color: var(--text-color) !important;
+}
+
+/* Arreglar problemas de leyendas y etiquetas en gráficos */
+.dark-theme .chart-container .chartjs-size-monitor,
+.dark-theme .chart-container canvas {
+    filter: brightness(0.95) !important;
+}
+
+.dark-theme .legend-item,
+.dark-theme .chart-legend,
+.dark-theme .chart-title,
+.dark-theme .chart-label,
+.dark-theme .chart-value,
+.dark-theme .chart-description {
+    color: var(--text-color) !important;
+}
+
+/* Mejorar contraste en barras de progreso */
+.dark-theme .progress-bar {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Arreglar tablas en análisis detallado */
+.dark-theme .percentile-progress {
+    background-color: var(--primary-color) !important;
+}
+
+.dark-theme .analysis-table th,
+.dark-theme .data-table th,
+.dark-theme th,
+.dark-theme .table-container th {
+    background-color: var(--table-header-bg) !important;
+    color: var(--table-header-text) !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+    padding: 12px 16px !important;
+}
+
+/* Mejorar visibilidad de textos específicos */
+.dark-theme .section-color + span,
+.dark-theme .demographic-value,
+.dark-theme .profile-section-title,
+.dark-theme .profile-property,
+.dark-theme .property-label,
+.dark-theme .property-value {
+    color: var(--text-color) !important;
+}
+
+/* Mejorar contraste de etiquetas y valores */
+.dark-theme .level-badge,
+.dark-theme .metric-label,
+.dark-theme .metric-value {
+    color: var(--text-color) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Arreglar categorías y etiquetas */
+.dark-theme .category-label,
+.dark-theme .section-label,
+.dark-theme .fase-card .fase-title,
+.dark-theme .fase-card .fase-description {
+    color: var(--text-color) !important;
+}
+
+/* Ajustes específicos para secuencia de aprendizaje */
+.dark-theme .sequence-container .fase-card {
+    background-color: rgba(60, 130, 246, 0.15) !important;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Arreglar textos del encabezado de perfil */
+.dark-theme .profile-name,
+.dark-theme .profile-badge,
+.dark-theme .demographic-metrics,
+.dark-theme .demographic-info {
+    color: white !important;
+}
+
+/* Tablas específicas en vistas de análisis */
+.dark-theme #seccion-table td,
+.dark-theme #itemParametersTable td,
+.dark-theme #factor-loadings-table td,
+.dark-theme #modulos-table td {
+    color: var(--text-color) !important;
+}
+
+/* Mejorar los badges y pills en tema oscuro */
+.dark-theme .badge,
+.dark-theme .pill,
+.dark-theme .badge-blue,
+.dark-theme .badge-green,
+.dark-theme .badge-yellow,
+.dark-theme .badge-red {
+    color: white !important;
+}
+
+.dark-theme .badge-blue { 
+    background-color: rgba(37, 99, 235, 0.7) !important; 
+}
+
+.dark-theme .badge-green { 
+    background-color: rgba(16, 185, 129, 0.7) !important; 
+}
+
+.dark-theme .badge-yellow { 
+    background-color: rgba(251, 191, 36, 0.7) !important; 
+}
+
+.dark-theme .badge-red { 
+    background-color: rgba(239, 68, 68, 0.7) !important; 
+}
+
+/* Mejorar etiquetas de nivel */
+.dark-theme .level-badge.level-básico,
+.dark-theme .level-badge.level-basico {
+    color: #fca5a5 !important;
+    background-color: rgba(239, 68, 68, 0.2) !important;
+}
+
+.dark-theme .level-badge.level-básico-intermedio,
+.dark-theme .level-badge.level-basico-intermedio {
+    color: #fdba74 !important;
+    background-color: rgba(249, 115, 22, 0.2) !important;
+}
+
+.dark-theme .level-badge.level-intermedio {
+    color: #fde68a !important;
+    background-color: rgba(245, 158, 11, 0.2) !important;
+}
+
+.dark-theme .level-badge.level-intermedio-alto {
+    color: #93c5fd !important;
+    background-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+.dark-theme .level-badge.level-avanzado {
+    color: #6ee7b7 !important;
+    background-color: rgba(16, 185, 129, 0.2) !important;
+}
+
+/* Arreglar contraste en comparativa con media */
+.dark-theme .comparison.positive {
+    color: #4ade80 !important;
+}
+
+.dark-theme .comparison.negative {
+    color: #f87171 !important;
+}
+
+/* Mantener contraste en los KPIs */
+.dark-theme .kpi-container .kpi-card {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+}
+
+.dark-theme .kpi-container .kpi-title {
+    color: var(--text-muted) !important;
+}
+
+.dark-theme .kpi-container .kpi-value {
+    color: var(--primary-color) !important;
+}
+
+.dark-theme .kpi-container .kpi-subtitle {
+    color: var(--text-muted) !important;
+}
+/* Añadir estos estilos al final de tu archivo style.css */
+
+/* Correcciones para la cabecera del perfil de participante */
+.dark-theme .participant-header,
+.dark-theme .profile-header-bg {
+    background: linear-gradient(135deg, #3B82F6, #1D4ED8);
+    color: white;
+}
+
+.dark-theme .profile-avatar .avatar-container {
+    color: #3B82F6;
+    background-color: white;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+.dark-theme .profile-name,
+.dark-theme .primary-metric,
+.dark-theme .profile-badge {
+    color: white !important;
+}
+
+/* Correcciones para etiquetas y datos en gráficos de radar */
+.dark-theme .chart-js-render-monitor[data-type="radar"] text {
+    fill: white !important;
+}
+
+.dark-theme canvas {
+    filter: none !important; /* Eliminar el filtro que puede estar causando problemas */
+}
+
+/* Forzar colores de texto para etiquetas en los gráficos */
+.dark-theme .chartjs-render-monitor text,
+.dark-theme canvas text,
+.dark-theme .chart-container text {
+    fill: #e2e8f0 !important;
+    color: #e2e8f0 !important;
+}
+
+/* Mejora para los cuadros en Análisis Individual */
+.dark-theme .recommendation-item,
+.dark-theme .strength-item,
+.dark-theme .improvement-item,
+.dark-theme .phase-content,
+.dark-theme .profile-section {
+    background-color: rgba(30, 41, 59, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .recommendation-text,
+.dark-theme .recommendation-reason,
+.dark-theme .recommendation-title,
+.dark-theme .strength-text,
+.dark-theme .improvement-text,
+.dark-theme .phase-title,
+.dark-theme .profile-section-title,
+.dark-theme .objectives-list li,
+.dark-theme .experience-list li,
+.dark-theme .content-keys-list li,
+.dark-theme .section-subtitle,
+.dark-theme .interpretation-text {
+    color: #e2e8f0 !important;
+}
+
+/* Arreglar elementos específicos en los gráficos de radar */
+.dark-theme .chart-container[id*="radar"] {
+    position: relative;
+}
+
+.dark-theme .chart-container[id*="radar"]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Correcciones específicas para tablas en análisis individual */
+.dark-theme #seccion-table td,
+.dark-theme .data-table td,
+.dark-theme table.analysis-table td {
+    color: #e2e8f0 !important;
+}
+
+/* Mejorar etiquetas de valor en gráficos */
+.dark-theme .chartjs-tooltip,
+.dark-theme .chartjs-tooltip-key {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+}
+
+/* Corregir tarjetas blancas con texto blanco */
+.dark-theme .card,
+.dark-theme .info-card,
+.dark-theme .progress-card,
+.dark-theme .phase-card,
+.dark-theme .recommendation-card {
+    background-color: rgba(30, 41, 59, 0.7) !important;
+    color: #e2e8f0 !important;
+}
+
+/* Corregir elementos dentro de tarjetas */
+.dark-theme .card *,
+.dark-theme .info-card *,
+.dark-theme .progress-card *,
+.dark-theme .phase-card *,
+.dark-theme .recommendation-card * {
+    color: #e2e8f0 !important;
+}
+
+/* Excepciones para íconos y elementos coloreados */
+.dark-theme .card i.fas,
+.dark-theme .card i.far,
+.dark-theme .card i.fab {
+    color: inherit;
+}
+
+.dark-theme .positive {
+    color: #4ADE80 !important;
+}
+
+.dark-theme .negative {
+    color: #F87171 !important;
+}
+
+/* Solución específica para etiquetas y valores en el centro de gráficos radar */
+.dark-theme #radar-chart text,
+.dark-theme [id*="radar"] text,
+.dark-theme .radar-chart text,
+.dark-theme canvas.radar text {
+    fill: #e2e8f0 !important; /* Color de texto para tema oscuro */
+    font-weight: 600 !important; /* Hacerlo más grueso para mejor visibilidad */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8) !important; /* Sombra para mejorar la legibilidad */
+}
+
+/* Solución para las tarjetas de la ruta de aprendizaje */
+.dark-theme .fase-item {
+    background-color: rgba(30, 41, 59, 0.7) !important;
+}
+
+.dark-theme .fase-number {
+    background-color: #2563EB !important;
+    color: white !important;
+}
+
+.dark-theme .fase-title,
+.dark-theme .fase-duration,
+.dark-theme .fase-description,
+.dark-theme .fase-temas {
+    color: #e2e8f0 !important;
+}
+
+/* Fix para las tarjetas de recomendaciones */
+.dark-theme .recommendation-item {
+    border-left: 4px solid;
+}
+
+.dark-theme .high-priority {
+    border-color: #ef4444 !important;
+    background-color: rgba(239, 68, 68, 0.1) !important;
+}
+
+.dark-theme .medium-priority {
+    border-color: #f97316 !important;
+    background-color: rgba(249, 115, 22, 0.1) !important;
+}
+
+.dark-theme .low-priority {
+    border-color: #3b82f6 !important;
+    background-color: rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Corrección para ajustar Chart.js en modo oscuro */
+.dark-theme .chartjs-size-monitor,
+.dark-theme canvas {
+    filter: none !important;
+}
+
+/* Función JavaScript para ser añadida para forzar colores en gráficos radar */
+/*
+function forceRadarChartColors() {
+    // Seleccionar todos los canvas de tipo radar
+    const canvases = document.querySelectorAll('canvas');
+    canvases.forEach(canvas => {
+        const ctx = canvas.getContext('2d');
+        if (ctx && canvas.classList.contains('radar')) {
+            // Forzar configuración de colores
+            ctx.fillStyle = '#e2e8f0';
+            ctx.strokeStyle = '#e2e8f0';
+            ctx.font = 'bold 12px Arial';
+        }
+    });
+}
+
+// Llamar a esta función después de que los gráficos se hayan renderizado
+// También después de cambiar el tema
+*/

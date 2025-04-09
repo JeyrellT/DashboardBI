@@ -1,84 +1,15 @@
 {
-    "perspectiva de usuario": {
-        "participantes": 143,
-        "distribucion": {
-            "bajo": 1,
-            "medio": 0,
-            "alto": 16,
-            "muy_alto": 126
-        },
-        "porcentaje_promedio": 95.57109557109557,
-        "porcentaje_mediana": 100.0,
-        "desviacion_estandar": 13.214953643877266,
-        "porcentaje_minimo": 0.0,
-        "porcentaje_maximo": 100.0,
-        "fortaleza_grupal": "muy alta",
-        "homogeneidad": "homogéneo",
-        "definicion": "capacidad para adoptar el punto de vista del usuario final y diseñar considerando sus necesidades",
-        "relevancia_bi": "esencial para crear soluciones de bi que respondan a las necesidades del negocio",
-        "comportamientos_observables": [
-            "prioriza la facilidad de interpretación",
-            "considera el contexto y conocimientos del usuario final",
-            "diseña interfaces intuitivas y eficientes"
-        ]
-    },
-    "pensamiento analítico": {
-        "participantes": 143,
-        "distribucion": {
-            "bajo": 4,
-            "medio": 11,
-            "alto": 55,
-            "muy_alto": 73
-        },
-        "porcentaje_promedio": 84.44055944055944,
-        "porcentaje_mediana": 100.0,
-        "desviacion_estandar": 18.653117018670127,
-        "porcentaje_minimo": 25.0,
-        "porcentaje_maximo": 100.0,
-        "fortaleza_grupal": "muy alta",
-        "homogeneidad": "homogéneo",
-        "definicion": "capacidad para descomponer problemas complejos, identificar patrones y llegar a conclusiones lógicas basadas en datos",
-        "relevancia_bi": "esencial para interpretar correctamente los datos y crear visualizaciones significativas",
-        "comportamientos_observables": [
-            "identifica problemas en calidad de datos antes de visualizarlos",
-            "investiga causas de anomalías en lugar de ignorarlas",
-            "reconoce patrones temporales en los datos"
-        ]
-    },
-    "orientación visual": {
-        "participantes": 143,
-        "distribucion": {
-            "bajo": 2,
-            "medio": 14,
-            "alto": 62,
-            "muy_alto": 65
-        },
-        "porcentaje_promedio": 83.21678321678321,
-        "porcentaje_mediana": 75.0,
-        "desviacion_estandar": 17.684151911051455,
-        "porcentaje_minimo": 25.0,
-        "porcentaje_maximo": 100.0,
-        "fortaleza_grupal": "muy alta",
-        "homogeneidad": "homogéneo",
-        "definicion": "capacidad para comunicar información de manera efectiva a través de representaciones visuales",
-        "relevancia_bi": "fundamental para crear dashboards que transmitan información de forma clara e intuitiva",
-        "comportamientos_observables": [
-            "prioriza la claridad visual sobre la complejidad",
-            "selecciona el tipo de visualización adecuado según el propósito",
-            "diseña considerando la percepción del usuario"
-        ]
-    },
     "mentalidad de optimización": {
-        "participantes": 143,
+        "participantes": 167,
         "distribucion": {
-            "bajo": 16,
-            "medio": 39,
-            "alto": 58,
-            "muy_alto": 30
+            "bajo": 20,
+            "medio": 45,
+            "alto": 67,
+            "muy_alto": 35
         },
-        "porcentaje_promedio": 67.48251748251748,
+        "porcentaje_promedio": 67.21556886227545,
         "porcentaje_mediana": 75.0,
-        "desviacion_estandar": 23.84297499473052,
+        "desviacion_estandar": 23.992294112322902,
         "porcentaje_minimo": 0.0,
         "porcentaje_maximo": 100.0,
         "fortaleza_grupal": "alta",
@@ -91,40 +22,17 @@
             "considera el rendimiento en el diseño de modelos"
         ]
     },
-    "atención al detalle": {
-        "participantes": 143,
-        "distribucion": {
-            "bajo": 38,
-            "medio": 57,
-            "alto": 39,
-            "muy_alto": 9
-        },
-        "porcentaje_promedio": 52.0979020979021,
-        "porcentaje_mediana": 50.0,
-        "desviacion_estandar": 24.10939946269823,
-        "porcentaje_minimo": 0.0,
-        "porcentaje_maximo": 100.0,
-        "fortaleza_grupal": "media",
-        "homogeneidad": "heterogéneo",
-        "definicion": "capacidad para notar y dar importancia a pequeños detalles que pueden tener gran impacto",
-        "relevancia_bi": "importante para evitar errores en fórmulas, relaciones y visualizaciones",
-        "comportamientos_observables": [
-            "selecciona tipos de datos precisos para cada caso",
-            "comprende distinciones técnicas sutiles pero importantes",
-            "detecta inconsistencias en los datos y modelos"
-        ]
-    },
     "pensamiento sistemático": {
-        "participantes": 143,
+        "participantes": 167,
         "distribucion": {
             "bajo": 2,
-            "medio": 9,
-            "alto": 49,
-            "muy_alto": 83
+            "medio": 10,
+            "alto": 57,
+            "muy_alto": 98
         },
-        "porcentaje_promedio": 87.23776223776224,
+        "porcentaje_promedio": 87.57485029940119,
         "porcentaje_mediana": 100.0,
-        "desviacion_estandar": 16.949929571385766,
+        "desviacion_estandar": 16.613394489826444,
         "porcentaje_minimo": 25.0,
         "porcentaje_maximo": 100.0,
         "fortaleza_grupal": "muy alta",
@@ -138,16 +46,16 @@
         ]
     },
     "comunicación de datos": {
-        "participantes": 143,
+        "participantes": 167,
         "distribucion": {
             "bajo": 3,
-            "medio": 21,
-            "alto": 93,
-            "muy_alto": 26
+            "medio": 28,
+            "alto": 108,
+            "muy_alto": 28
         },
-        "porcentaje_promedio": 74.82517482517483,
+        "porcentaje_promedio": 74.10179640718563,
         "porcentaje_mediana": 75.0,
-        "desviacion_estandar": 16.057290214272776,
+        "desviacion_estandar": 15.927468357210044,
         "porcentaje_minimo": 25.0,
         "porcentaje_maximo": 100.0,
         "fortaleza_grupal": "alta",
@@ -158,6 +66,98 @@
             "selecciona visualizaciones según la historia que cuentan los datos",
             "estructura información jerárquicamente para facilitar la comprensión",
             "adapta el nivel de detalle según la audiencia"
+        ]
+    },
+    "atención al detalle": {
+        "participantes": 167,
+        "distribucion": {
+            "bajo": 45,
+            "medio": 66,
+            "alto": 44,
+            "muy_alto": 12
+        },
+        "porcentaje_promedio": 51.796407185628745,
+        "porcentaje_mediana": 50.0,
+        "desviacion_estandar": 25.159500514390206,
+        "porcentaje_minimo": 0.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "media",
+        "homogeneidad": "heterogéneo",
+        "definicion": "capacidad para notar y dar importancia a pequeños detalles que pueden tener gran impacto",
+        "relevancia_bi": "importante para evitar errores en fórmulas, relaciones y visualizaciones",
+        "comportamientos_observables": [
+            "selecciona tipos de datos precisos para cada caso",
+            "comprende distinciones técnicas sutiles pero importantes",
+            "detecta inconsistencias en los datos y modelos"
+        ]
+    },
+    "perspectiva de usuario": {
+        "participantes": 167,
+        "distribucion": {
+            "bajo": 1,
+            "medio": 0,
+            "alto": 19,
+            "muy_alto": 147
+        },
+        "porcentaje_promedio": 95.60878243512973,
+        "porcentaje_mediana": 100.0,
+        "desviacion_estandar": 12.923284675639641,
+        "porcentaje_minimo": 0.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "muy alta",
+        "homogeneidad": "homogéneo",
+        "definicion": "capacidad para adoptar el punto de vista del usuario final y diseñar considerando sus necesidades",
+        "relevancia_bi": "esencial para crear soluciones de bi que respondan a las necesidades del negocio",
+        "comportamientos_observables": [
+            "prioriza la facilidad de interpretación",
+            "considera el contexto y conocimientos del usuario final",
+            "diseña interfaces intuitivas y eficientes"
+        ]
+    },
+    "pensamiento analítico": {
+        "participantes": 167,
+        "distribucion": {
+            "bajo": 4,
+            "medio": 13,
+            "alto": 66,
+            "muy_alto": 84
+        },
+        "porcentaje_promedio": 84.4311377245509,
+        "porcentaje_mediana": 100.0,
+        "desviacion_estandar": 18.274513203839913,
+        "porcentaje_minimo": 25.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "muy alta",
+        "homogeneidad": "homogéneo",
+        "definicion": "capacidad para descomponer problemas complejos, identificar patrones y llegar a conclusiones lógicas basadas en datos",
+        "relevancia_bi": "esencial para interpretar correctamente los datos y crear visualizaciones significativas",
+        "comportamientos_observables": [
+            "identifica problemas en calidad de datos antes de visualizarlos",
+            "investiga causas de anomalías en lugar de ignorarlas",
+            "reconoce patrones temporales en los datos"
+        ]
+    },
+    "orientación visual": {
+        "participantes": 167,
+        "distribucion": {
+            "bajo": 2,
+            "medio": 16,
+            "alto": 70,
+            "muy_alto": 79
+        },
+        "porcentaje_promedio": 83.83233532934132,
+        "porcentaje_mediana": 75.0,
+        "desviacion_estandar": 17.534790975265057,
+        "porcentaje_minimo": 25.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "muy alta",
+        "homogeneidad": "homogéneo",
+        "definicion": "capacidad para comunicar información de manera efectiva a través de representaciones visuales",
+        "relevancia_bi": "fundamental para crear dashboards que transmitan información de forma clara e intuitiva",
+        "comportamientos_observables": [
+            "prioriza la claridad visual sobre la complejidad",
+            "selecciona el tipo de visualización adecuado según el propósito",
+            "diseña considerando la percepción del usuario"
         ]
     }
 }
