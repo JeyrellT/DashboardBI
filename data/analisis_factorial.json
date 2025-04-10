@@ -1,0 +1,167 @@
+{
+    "status": "success",
+    "n_components": 3,
+    "explained_variance_ratio_approx": [
+        0.41327710232777287,
+        0.23911213368751094,
+        0.20143175203400662
+    ],
+    "total_explained_variance_approx": 0.8538209880492905,
+    "skills_analyzed": [
+        "atención al detalle",
+        "comunicación de datos",
+        "mentalidad de optimización",
+        "orientación visual",
+        "pensamiento analítico",
+        "pensamiento sistemático",
+        "perspectiva de usuario"
+    ],
+    "skill_factors": {
+        "atención al detalle": {
+            "factor_principal": "Factor 2",
+            "carga": -0.983736230393742,
+            "cargas_completas": [
+                -0.02728743718647727,
+                -0.983736230393742,
+                0.09879166919054895
+            ]
+        },
+        "comunicación de datos": {
+            "factor_principal": "Factor 1",
+            "carga": -0.8124080802824039,
+            "cargas_completas": [
+                -0.8124080802824039,
+                -0.27155871616268473,
+                0.20983233368275606
+            ]
+        },
+        "mentalidad de optimización": {
+            "factor_principal": "Factor 2",
+            "carga": -0.608849981874641,
+            "cargas_completas": [
+                -0.4158099558176372,
+                -0.608849981874641,
+                -0.270212500144478
+            ]
+        },
+        "orientación visual": {
+            "factor_principal": "Factor 1",
+            "carga": -0.9732059266579769,
+            "cargas_completas": [
+                -0.9732059266579769,
+                -0.1768762681742512,
+                -0.12138865272968363
+            ]
+        },
+        "pensamiento analítico": {
+            "factor_principal": "Factor 3",
+            "carga": -0.5801443543442802,
+            "cargas_completas": [
+                -0.11541651617651807,
+                0.1751702642544333,
+                -0.5801443543442802
+            ]
+        },
+        "pensamiento sistemático": {
+            "factor_principal": "Factor 3",
+            "carga": -0.9773935201975189,
+            "cargas_completas": [
+                0.06395021257082166,
+                0.014298008744082016,
+                -0.9773935201975189
+            ]
+        },
+        "perspectiva de usuario": {
+            "factor_principal": "Factor 1",
+            "carga": -0.9163550975288437,
+            "cargas_completas": [
+                -0.9163550975288437,
+                0.17853470426516427,
+                0.07140732469886413
+            ]
+        }
+    },
+    "factors_skills": {
+        "Factor 1": [
+            {
+                "skill": "orientación visual",
+                "carga": -0.9732059266579769
+            },
+            {
+                "skill": "perspectiva de usuario",
+                "carga": -0.9163550975288437
+            },
+            {
+                "skill": "comunicación de datos",
+                "carga": -0.8124080802824039
+            }
+        ],
+        "Factor 2": [
+            {
+                "skill": "atención al detalle",
+                "carga": -0.983736230393742
+            },
+            {
+                "skill": "mentalidad de optimización",
+                "carga": -0.608849981874641
+            }
+        ],
+        "Factor 3": [
+            {
+                "skill": "pensamiento sistemático",
+                "carga": -0.9773935201975189
+            },
+            {
+                "skill": "pensamiento analítico",
+                "carga": -0.5801443543442802
+            }
+        ]
+    },
+    "factor_descriptions": {
+        "Factor 1": "Relacionado principalmente con: orientación visual, perspectiva de usuario, comunicación de datos",
+        "Factor 2": "Relacionado principalmente con: atención al detalle, mentalidad de optimización",
+        "Factor 3": "Relacionado principalmente con: pensamiento sistemático, pensamiento analítico"
+    },
+    "participant_scores": {
+        "1": {
+            "Factor 1": 0.06175771132794657,
+            "Factor 2": 1.7929092164096947,
+            "Factor 3": -0.84074229624405
+        },
+        "2": {
+            "Factor 1": 1.2100728661218785,
+            "Factor 2": 0.3903000157996183,
+            "Factor 3": 2.049884354234299
+        },
+        "3": {
+            "Factor 1": -0.9914755799426603,
+            "Factor 2": 0.23754794373241253,
+            "Factor 3": 0.4036081773401379
+        },
+        "4": {
+            "Factor 1": -0.8279702442602973,
+            "Factor 2": 0.1566471538951072,
+            "Factor 3": -0.8887777867389326
+        },
+        "5": {
+            "Factor 1": -0.7601841059459283,
+            "Factor 2": -1.3658720023218731,
+            "Factor 3": 0.504205468701531
+        },
+        "6": {
+            "Factor 1": -1.024545760902625,
+            "Factor 2": 0.26811608344567145,
+            "Factor 3": 0.43431445570851235
+        },
+        "7": {
+            "Factor 1": 1.641269247776914,
+            "Factor 2": 0.07940359465627198,
+            "Factor 3": -0.7913328094006646
+        },
+        "8": {
+            "Factor 1": 0.6910758658247709,
+            "Factor 2": -1.559052005616903,
+            "Factor 3": -0.8711595636008327
+        }
+    }
+}

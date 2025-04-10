@@ -1,0 +1,2711 @@
+{
+  "meta": {
+    "fecha_generacion": "2025-04-08",
+    "total_participantes": 8,
+    "estadisticas_globales": {
+      "media": 50.56818181818182,
+      "mediana": 51.13636363636364,
+      "desviacion_estandar": 12.31414368085252,
+      "min": 22.727272727272727,
+      "max": 63.63636363636363,
+      "q1": 50.0,
+      "q3": 57.38636363636364,
+      "preguntas_evaluadas": 44
+    },
+    "estadisticas_secciones": {
+      "fundamentos": {
+        "title": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+        "media": 54.166666666666664,
+        "mediana": 55.55555555555556,
+        "desviacion": 21.771217022770163,
+        "min": 11.11111111111111,
+        "max": 88.88888888888889,
+        "importancia": "alta",
+        "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis",
+        "numero_preguntas": 9
+      },
+      "excel": {
+        "title": "HABILIDADES EN EXCEL Y TABLAS",
+        "media": 62.5,
+        "mediana": 62.5,
+        "desviacion": 14.94035761667992,
+        "min": 37.5,
+        "max": 87.5,
+        "importancia": "media",
+        "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional",
+        "numero_preguntas": 8
+      },
+      "databases": {
+        "title": "CONCEPTOS DE BASES DE DATOS",
+        "media": 54.166666666666664,
+        "mediana": 55.55555555555556,
+        "desviacion": 13.849149497313608,
+        "min": 22.22222222222222,
+        "max": 66.66666666666666,
+        "importancia": "alta",
+        "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas",
+        "numero_preguntas": 9
+      },
+      "visualization": {
+        "title": "VISUALIZACIÓN DE DATOS",
+        "media": 50.0,
+        "mediana": 55.55555555555556,
+        "desviacion": 17.81741612749496,
+        "min": 22.22222222222222,
+        "max": 66.66666666666666,
+        "importancia": "alta",
+        "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo",
+        "numero_preguntas": 9
+      },
+      "powerbi": {
+        "title": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+        "media": 37.5,
+        "mediana": 31.25,
+        "desviacion": 24.09060279148579,
+        "min": 0.0,
+        "max": 75.0,
+        "importancia": "muy alta",
+        "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos",
+        "numero_preguntas": 8
+      }
+    },
+    "estadisticas_demograficas": {
+      "sexo": {
+        "Hombre": {
+          "media": 46.59090909090909,
+          "mediana": 50.0,
+          "desviacion": 17.158714625615342,
+          "participantes": 4
+        },
+        "Mujer": {
+          "media": 54.54545454545455,
+          "mediana": 54.54545454545455,
+          "desviacion": 4.149413314433078,
+          "participantes": 4
+        }
+      },
+      "rol": {
+        "Analista": {
+          "media": 51.13636363636364,
+          "mediana": 51.13636363636364,
+          "desviacion": 1.6070608663330654,
+          "participantes": 2
+        },
+        "Director": {
+          "media": 56.81818181818182,
+          "mediana": 56.81818181818182,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Financiero": {
+          "media": 59.09090909090909,
+          "mediana": 59.09090909090909,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Supervisor": {
+          "media": 22.727272727272727,
+          "mediana": 22.727272727272727,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Vendedor": {
+          "media": 54.54545454545454,
+          "mediana": 50.0,
+          "desviacion": 7.872958216222168,
+          "participantes": 3
+        }
+      },
+      "sector": {
+        "Finanzas": {
+          "media": 59.09090909090909,
+          "mediana": 59.09090909090909,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Logistica": {
+          "media": 49.35064935064935,
+          "mediana": 50.0,
+          "desviacion": 12.770104181361777,
+          "participantes": 7
+        }
+      },
+      "formacion": {
+        "Autodidacta": {
+          "media": 22.727272727272727,
+          "mediana": 22.727272727272727,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Técnico": {
+          "media": 50.0,
+          "mediana": 50.0,
+          "desviacion": 0.0,
+          "participantes": 1
+        },
+        "Universitario": {
+          "media": 55.303030303030305,
+          "mediana": 54.54545454545455,
+          "desviacion": 5.504818825631801,
+          "participantes": 6
+        }
+      }
+    },
+    "perfiles_generados": 8,
+    "perfiles_con_error": 0
+  },
+  "perfiles": {
+    "1": {
+      "id": 1,
+      "datos_demograficos": {
+        "sexo": "Hombre",
+        "rol": "Vendedor",
+        "sector": "Logistica",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 22.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 50.0,
+        "percentil": 37.5,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": -0.5681818181818201,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": -0.6273423757853611,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 0.06379472895044298,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 62.5,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 0.0,
+            "diferencia_media": 0.0,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 50.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.10028694463571954,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 3.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 33.33333333333333,
+          "percentil": 31.25,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": -0.9354143466934857,
+            "diferencia_media": -16.66666666666667,
+            "interpretacion": "Oportunidad de mejora. Recomendable reforzar conceptos."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 4.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 50.0,
+          "percentil": 75.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": 0.5188745216627708,
+            "diferencia_media": 12.5,
+            "interpretacion": "Buen dominio en esta área crítica. Recomendable seguir reforzando."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Hombre",
+          "estadisticas_grupo": {
+            "media": 46.59090909090909,
+            "mediana": 50.0,
+            "desviacion": 17.158714625615342,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": 3.4090909090909065,
+            "percentil_en_grupo": 57.87434078122493
+          }
+        },
+        "rol": {
+          "grupo": "Vendedor",
+          "estadisticas_grupo": {
+            "media": 54.54545454545454,
+            "mediana": 50.0,
+            "desviacion": 7.872958216222168,
+            "participantes": 3
+          },
+          "comparativa": {
+            "diferencia_media": -4.54545454545454,
+            "percentil_en_grupo": 28.185143082538676
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 0.6493506493506516,
+            "percentil_en_grupo": 52.02771905019981
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": -5.3030303030303045,
+            "percentil_en_grupo": 16.768763658566076
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Implementar soluciones de BI en mi organización",
+          "Mejorar mis habilidades en visualización de datos",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Conexión a fuentes de datos",
+          "Lenguaje DAX y cálculos",
+          "Creación de dashboards interactivos",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Lo he usado algunas veces"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "intermedio",
+            "diferencia_media": "+12.5%"
+          }
+        ],
+        "areas_mejora": [
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-16.7%"
+          }
+        ]
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [
+          {
+            "area": "VISUALIZACIÓN DE DATOS",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en visualización de datos",
+            "razon": "Rendimiento por debajo del promedio grupal (-16.7%)",
+            "impacto": "Mejorar en visualización potenciará su capacidad para comunicar insights de manera efectiva."
+          }
+        ],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Vendedor",
+            "recomendacion": "Dominar análisis de ventas, segmentación de clientes y visualización de pipelines",
+            "justificacion": "El análisis de datos de ventas y clientes permite identificar oportunidades y optimizar estrategias",
+            "prioridad": "alta"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Selección de gráficos por propósito",
+              "Diseño básico de dashboards"
+            ],
+            "enfoque_recomendado": "Combinar teoría con práctica, utilizando ejercicios con dificultad progresiva"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Análisis exploratorio de datos",
+              "Estadística descriptiva avanzada"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Funciones condicionales avanzadas",
+              "Análisis y agrupación de datos temporales"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Medidas DAX intermedias",
+              "Modelado en esquema estrella",
+              "Funciones de contexto"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          }
+        ]
+      }
+    },
+    "2": {
+      "id": 2,
+      "datos_demograficos": {
+        "sexo": "Hombre",
+        "rol": "Supervisor",
+        "sector": "Logistica",
+        "formacion": "Autodidacta"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 10.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 22.727272727272727,
+        "percentil": 12.5,
+        "nivel_general": "básico",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": -27.840909090909093,
+          "interpretacion": "Rendimiento significativamente por debajo del promedio (bottom 2.5%)."
+        },
+        "theta_irt": -2.0395052757452263,
+        "interpretacion_irt": "Habilidad latente extremadamente baja en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 1.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 11.11111111111111,
+          "percentil": 12.5,
+          "nivel": "básico",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": -1.9776365974637269,
+            "diferencia_media": -43.05555555555556,
+            "interpretacion": "Área con necesidad de atención. Refuerzo recomendado."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 62.5,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 0.0,
+            "diferencia_media": 0.0,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 2.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 22.22222222222222,
+          "percentil": 12.5,
+          "nivel": "básico",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": -2.306599726621543,
+            "diferencia_media": -31.944444444444443,
+            "interpretacion": "Área con necesidad de atención. Refuerzo recomendado."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 2.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 22.22222222222222,
+          "percentil": 12.5,
+          "nivel": "básico",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": -1.559023911155809,
+            "diferencia_media": -27.77777777777778,
+            "interpretacion": "Área con necesidad de atención. Refuerzo recomendado."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 0.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 0.0,
+          "percentil": 12.5,
+          "nivel": "básico",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": -1.5566235649883124,
+            "diferencia_media": -37.5,
+            "interpretacion": "Área crítica con necesidad urgente de refuerzo. Prioridad alta."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Hombre",
+          "estadisticas_grupo": {
+            "media": 46.59090909090909,
+            "mediana": 50.0,
+            "desviacion": 17.158714625615342,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": -23.863636363636367,
+            "percentil_en_grupo": 8.214926368343656
+          }
+        },
+        "rol": {
+          "grupo": "Supervisor",
+          "estadisticas_grupo": {
+            "media": 22.727272727272727,
+            "mediana": 22.727272727272727,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": -26.623376623376622,
+            "percentil_en_grupo": 1.8542792755784152
+          }
+        },
+        "formacion": {
+          "grupo": "Autodidacta",
+          "estadisticas_grupo": {
+            "media": 22.727272727272727,
+            "mediana": 22.727272727272727,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Aprender los fundamentos de Power BI desde cero",
+          "Implementar soluciones de BI en mi organización",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Creación de dashboards interactivos",
+          "Compartir y publicar informes",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [],
+        "areas_mejora": [
+          {
+            "seccion": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel": "básico",
+            "diferencia_media": "-43.1%"
+          },
+          {
+            "seccion": "CONCEPTOS DE BASES DE DATOS",
+            "nivel": "básico",
+            "diferencia_media": "-31.9%"
+          },
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "básico",
+            "diferencia_media": "-27.8%"
+          },
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "básico",
+            "diferencia_media": "-37.5%"
+          }
+        ]
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [
+          {
+            "area": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en fundamentos de datos y análisis",
+            "razon": "Rendimiento por debajo del promedio grupal (-43.1%)",
+            "impacto": "Mejorar en esta área fortalecerá su capacidad para entender y trabajar con datos de manera efectiva."
+          },
+          {
+            "area": "CONCEPTOS DE BASES DE DATOS",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en conceptos de bases de datos",
+            "razon": "Rendimiento por debajo del promedio grupal (-31.9%)",
+            "impacto": "Dominar estos conceptos es crucial para crear modelos de datos eficientes y escalables en Power BI."
+          },
+          {
+            "area": "VISUALIZACIÓN DE DATOS",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en visualización de datos",
+            "razon": "Rendimiento por debajo del promedio grupal (-27.8%)",
+            "impacto": "Mejorar en visualización potenciará su capacidad para comunicar insights de manera efectiva."
+          },
+          {
+            "area": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en conocimientos específicos de power bi",
+            "razon": "Rendimiento por debajo del promedio grupal (-37.5%)",
+            "impacto": "Profundizar en estas capacidades es esencial para aprovechar todo el potencial de Power BI."
+          }
+        ],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Supervisor",
+            "recomendacion": "Aprender a crear informes operativos efectivos con actualizaciones frecuentes",
+            "justificacion": "Los roles de supervisión requieren monitoreo constante de métricas operativas",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "básico",
+            "objetivo": "Alcanzar nivel intermedio",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Tipos de datos",
+              "Variables cualitativas vs cuantitativas",
+              "Medidas de tendencia central"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "básico",
+            "objetivo": "Alcanzar nivel intermedio",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Conceptos de tablas y relaciones",
+              "Claves primarias",
+              "Estructura básica de bases de datos"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "básico",
+            "objetivo": "Alcanzar nivel intermedio",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Tipos de gráficos básicos",
+              "Propósito de dashboards",
+              "Elementos de visualización"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "básico",
+            "objetivo": "Alcanzar nivel intermedio",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Componentes básicos de Power BI",
+              "Power Query introductorio",
+              "Visualizaciones básicas"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Funciones condicionales avanzadas",
+              "Análisis y agrupación de datos temporales"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          }
+        ]
+      }
+    },
+    "3": {
+      "id": 3,
+      "datos_demograficos": {
+        "sexo": "Mujer",
+        "rol": "Analista",
+        "sector": "Logistica",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 23.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 52.27272727272727,
+        "percentil": 62.5,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": 1.7045454545454533,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": 0.26590345449000313,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 0.06379472895044298,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 4.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 50.0,
+          "percentil": 25.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": -0.8366600265340756,
+            "diferencia_media": -12.5,
+            "interpretacion": "Oportunidad de mejora. Recomendable reforzar conceptos."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 93.75,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.9025825017214728,
+            "diferencia_media": 12.499999999999993,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 87.5,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": 0.9354143466934849,
+            "diferencia_media": 16.666666666666657,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 2.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 25.0,
+          "percentil": 37.5,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": -0.5188745216627708,
+            "diferencia_media": -12.5,
+            "interpretacion": "Conocimiento básico en esta área crítica. Importante dedicar tiempo a mejorar."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Mujer",
+          "estadisticas_grupo": {
+            "media": 54.54545454545455,
+            "mediana": 54.54545454545455,
+            "desviacion": 4.149413314433078,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": -2.2727272727272734,
+            "percentil_en_grupo": 29.19412103851826
+          }
+        },
+        "rol": {
+          "grupo": "Analista",
+          "estadisticas_grupo": {
+            "media": 51.13636363636364,
+            "mediana": 51.13636363636364,
+            "desviacion": 1.6070608663330654,
+            "participantes": 2
+          },
+          "comparativa": {
+            "diferencia_media": 1.1363636363636331,
+            "percentil_en_grupo": 76.02499389065223
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 2.922077922077925,
+            "percentil_en_grupo": 59.049627962140484
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": -3.030303030303031,
+            "percentil_en_grupo": 29.099445002862133
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Aprender los fundamentos de Power BI desde cero",
+          "Complementar mis habilidades de análisis de datos",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Implementación en entornos empresariales",
+          "Creación de dashboards interactivos",
+          "Transformación y limpieza de datos",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "CONCEPTOS DE BASES DE DATOS",
+            "nivel": "intermedio",
+            "diferencia_media": "+12.5%"
+          },
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "intermedio",
+            "diferencia_media": "+16.7%"
+          }
+        ],
+        "areas_mejora": [
+          {
+            "seccion": "HABILIDADES EN EXCEL Y TABLAS",
+            "nivel": "intermedio",
+            "diferencia_media": "-12.5%"
+          },
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-12.5%"
+          }
+        ]
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [
+          {
+            "area": "HABILIDADES EN EXCEL Y TABLAS",
+            "prioridad": "media",
+            "descripcion": "Reforzar conocimientos en habilidades en excel y tablas",
+            "razon": "Rendimiento por debajo del promedio grupal (-12.5%)",
+            "impacto": "Fortalecer estas habilidades mejorará su eficiencia en el trabajo con datos y análisis preliminar."
+          },
+          {
+            "area": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en conocimientos específicos de power bi",
+            "razon": "Rendimiento por debajo del promedio grupal (-12.5%)",
+            "impacto": "Profundizar en estas capacidades es esencial para aprovechar todo el potencial de Power BI."
+          }
+        ],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Analista",
+            "recomendacion": "Profundizar en modelado de datos y relaciones entre tablas",
+            "justificacion": "Como analista, el dominio de la estructura de datos es fundamental para diseñar soluciones analíticas efectivas",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Analista",
+            "recomendacion": "Fortalecer conocimientos en lenguaje DAX y análisis avanzado",
+            "justificacion": "La creación de medidas y cálculos avanzados es esencial para análisis en profundidad de los datos",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Funciones condicionales avanzadas",
+              "Análisis y agrupación de datos temporales"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Transformación de datos con Power Query",
+              "Introducción a DAX",
+              "Relaciones básicas"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Análisis exploratorio de datos",
+              "Estadística descriptiva avanzada"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Principios de integridad visual",
+              "Técnicas de reducción de carga cognitiva"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          }
+        ]
+      }
+    },
+    "4": {
+      "id": 4,
+      "datos_demograficos": {
+        "sexo": "Hombre",
+        "rol": "Analista",
+        "sector": "Logistica",
+        "formacion": "Técnico"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 22.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 50.0,
+        "percentil": 37.5,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": -0.5681818181818201,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": 0.21195616652533703,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 0.06379472895044298,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 62.5,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 0.0,
+            "diferencia_media": 0.0,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 50.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.10028694463571954,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": 0.31180478223116187,
+            "diferencia_media": 5.555555555555557,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 2.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 25.0,
+          "percentil": 37.5,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": -0.5188745216627708,
+            "diferencia_media": -12.5,
+            "interpretacion": "Conocimiento básico en esta área crítica. Importante dedicar tiempo a mejorar."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Hombre",
+          "estadisticas_grupo": {
+            "media": 46.59090909090909,
+            "mediana": 50.0,
+            "desviacion": 17.158714625615342,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": 3.4090909090909065,
+            "percentil_en_grupo": 57.87434078122493
+          }
+        },
+        "rol": {
+          "grupo": "Analista",
+          "estadisticas_grupo": {
+            "media": 51.13636363636364,
+            "mediana": 51.13636363636364,
+            "desviacion": 1.6070608663330654,
+            "participantes": 2
+          },
+          "comparativa": {
+            "diferencia_media": -1.1363636363636402,
+            "percentil_en_grupo": 23.975006109347635
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 0.6493506493506516,
+            "percentil_en_grupo": 52.02771905019981
+          }
+        },
+        "formacion": {
+          "grupo": "Técnico",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 50.0,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Aprender los fundamentos de Power BI desde cero",
+          "Aprender modelado de datos y DAX avanzado",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Diseño de visualizaciones efectivas",
+          "Creación de dashboards interactivos",
+          "Implementación en entornos empresariales",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [],
+        "areas_mejora": [
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-12.5%"
+          }
+        ]
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [
+          {
+            "area": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en conocimientos específicos de power bi",
+            "razon": "Rendimiento por debajo del promedio grupal (-12.5%)",
+            "impacto": "Profundizar en estas capacidades es esencial para aprovechar todo el potencial de Power BI."
+          }
+        ],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Analista",
+            "recomendacion": "Profundizar en modelado de datos y relaciones entre tablas",
+            "justificacion": "Como analista, el dominio de la estructura de datos es fundamental para diseñar soluciones analíticas efectivas",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Analista",
+            "recomendacion": "Fortalecer conocimientos en lenguaje DAX y análisis avanzado",
+            "justificacion": "La creación de medidas y cálculos avanzados es esencial para análisis en profundidad de los datos",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Transformación de datos con Power Query",
+              "Introducción a DAX",
+              "Relaciones básicas"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Análisis exploratorio de datos",
+              "Estadística descriptiva avanzada"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Funciones condicionales avanzadas",
+              "Análisis y agrupación de datos temporales"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Principios de integridad visual",
+              "Técnicas de reducción de carga cognitiva"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          }
+        ]
+      }
+    },
+    "5": {
+      "id": 5,
+      "datos_demograficos": {
+        "sexo": "Hombre",
+        "rol": "Vendedor",
+        "sector": "Logistica",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 28.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 63.63636363636363,
+        "percentil": 100.0,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": 13.068181818181813,
+          "interpretacion": "Rendimiento superior al promedio (top 16%)."
+        },
+        "theta_irt": 0.9963703362090448,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 0.06379472895044298,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 75.0,
+          "percentil": 87.5,
+          "nivel": "intermedio-alto",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 0.8366600265340756,
+            "diferencia_media": 12.5,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 50.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.10028694463571954,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 87.5,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": 0.9354143466934849,
+            "diferencia_media": 16.666666666666657,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 6.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 75.0,
+          "percentil": 100.0,
+          "nivel": "intermedio-alto",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": 1.5566235649883124,
+            "diferencia_media": 37.5,
+            "interpretacion": "Excelente dominio en esta área crítica. Fortaleza destacada."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Hombre",
+          "estadisticas_grupo": {
+            "media": 46.59090909090909,
+            "mediana": 50.0,
+            "desviacion": 17.158714625615342,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": 17.04545454545454,
+            "percentil_en_grupo": 83.97422908620106
+          }
+        },
+        "rol": {
+          "grupo": "Vendedor",
+          "estadisticas_grupo": {
+            "media": 54.54545454545454,
+            "mediana": 50.0,
+            "desviacion": 7.872958216222168,
+            "participantes": 3
+          },
+          "comparativa": {
+            "diferencia_media": 9.090909090909093,
+            "percentil_en_grupo": 87.58934605050383
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 14.285714285714285,
+            "percentil_en_grupo": 86.83625644229262
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": 8.333333333333329,
+            "percentil_en_grupo": 93.49649073828576
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Aprender los fundamentos de Power BI desde cero",
+          "Mejorar mis habilidades en visualización de datos",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Transformación y limpieza de datos",
+          "Lenguaje DAX y cálculos",
+          "Creación de dashboards interactivos",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Excel avanzado (tablas dinámicas",
+          "fórmulas complejas);",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "HABILIDADES EN EXCEL Y TABLAS",
+            "nivel": "intermedio-alto",
+            "diferencia_media": "+12.5%"
+          },
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "intermedio",
+            "diferencia_media": "+16.7%"
+          },
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "intermedio-alto",
+            "diferencia_media": "+37.5%"
+          }
+        ],
+        "areas_mejora": []
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Vendedor",
+            "recomendacion": "Dominar análisis de ventas, segmentación de clientes y visualización de pipelines",
+            "justificacion": "El análisis de datos de ventas y clientes permite identificar oportunidades y optimizar estrategias",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Análisis exploratorio de datos",
+              "Estadística descriptiva avanzada"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "intermedio-alto",
+            "objetivo": "Alcanzar nivel avanzado",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "DAX avanzado",
+              "Inteligencia de tiempo (YoY, MoM)",
+              "Optimización de modelos"
+            ],
+            "enfoque_recomendado": "Proyectos desafiantes y estudio de casos avanzados con problemas del mundo real"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Principios de integridad visual",
+              "Técnicas de reducción de carga cognitiva"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio-alto",
+            "objetivo": "Alcanzar nivel avanzado",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Funciones anidadas complejas",
+              "Técnicas avanzadas de tablas dinámicas"
+            ],
+            "enfoque_recomendado": "Proyectos desafiantes y estudio de casos avanzados con problemas del mundo real"
+          }
+        ]
+      }
+    },
+    "6": {
+      "id": 6,
+      "datos_demograficos": {
+        "sexo": "Mujer",
+        "rol": "Director",
+        "sector": "Logistica",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 25.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 56.81818181818182,
+        "percentil": 75.0,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": 6.25,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": -0.4215799399293261,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 87.5,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 0.5741525605539849,
+            "diferencia_media": 12.499999999999993,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 62.5,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 0.0,
+            "diferencia_media": 0.0,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 50.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.10028694463571954,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 87.5,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": 0.9354143466934849,
+            "diferencia_media": 16.666666666666657,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 3.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 37.5,
+          "percentil": 62.5,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": 0.0,
+            "diferencia_media": 0.0,
+            "interpretacion": "Buen dominio en esta área crítica. Recomendable seguir reforzando."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Mujer",
+          "estadisticas_grupo": {
+            "media": 54.54545454545455,
+            "mediana": 54.54545454545455,
+            "desviacion": 4.149413314433078,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": 2.2727272727272734,
+            "percentil_en_grupo": 70.80587896148174
+          }
+        },
+        "rol": {
+          "grupo": "Director",
+          "estadisticas_grupo": {
+            "media": 56.81818181818182,
+            "mediana": 56.81818181818182,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 7.467532467532472,
+            "percentil_en_grupo": 72.06477216763805
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": 1.5151515151515156,
+            "percentil_en_grupo": 60.843443270183805
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Potenciar mi perfil profesional",
+          "Aprender los fundamentos de Power BI desde cero",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Creación de dashboards interactivos",
+          "Compartir y publicar informes",
+          "Implementación en entornos empresariales",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Lo he usado algunas veces"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel": "intermedio",
+            "diferencia_media": "+12.5%"
+          },
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "intermedio",
+            "diferencia_media": "+16.7%"
+          }
+        ],
+        "areas_mejora": []
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Gerencia",
+            "recomendacion": "Dominar la creación de dashboards ejecutivos y storytelling con datos",
+            "justificacion": "Como tomador de decisiones, es crucial poder interpretar y comunicar insights a partir de datos",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Gerencia",
+            "recomendacion": "Aprender a implementar KPIs y scorecards efectivos en Power BI",
+            "justificacion": "El monitoreo de indicadores clave es esencial para la toma de decisiones estratégicas",
+            "prioridad": "alta"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Funciones condicionales avanzadas",
+              "Análisis y agrupación de datos temporales"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Transformación de datos con Power Query",
+              "Introducción a DAX",
+              "Relaciones básicas"
+            ],
+            "enfoque_recomendado": "Combinar teoría con práctica, utilizando ejercicios con dificultad progresiva"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Principios de integridad visual",
+              "Técnicas de reducción de carga cognitiva"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Análisis exploratorio de datos",
+              "Estadística descriptiva avanzada"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          }
+        ]
+      }
+    },
+    "7": {
+      "id": 7,
+      "datos_demograficos": {
+        "sexo": "Mujer",
+        "rol": "Vendedor",
+        "sector": "Logistica",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 22.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 50.0,
+        "percentil": 37.5,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": -0.5681818181818201,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": -0.12573988482735193,
+        "interpretacion_irt": "Habilidad latente promedio en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 8.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 88.88888888888889,
+          "percentil": 100.0,
+          "nivel": "intermedio-alto",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": 1.59486822376107,
+            "diferencia_media": 34.72222222222222,
+            "interpretacion": "Buen dominio en esta área. Fortaleza identificada."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 3.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 37.5,
+          "percentil": 12.5,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": -1.6733200530681511,
+            "diferencia_media": -25.0,
+            "interpretacion": "Área con necesidad de atención. Refuerzo recomendado."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 6.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 66.66666666666666,
+          "percentil": 93.75,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.9025825017214728,
+            "diferencia_media": 12.499999999999993,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 3.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 33.33333333333333,
+          "percentil": 31.25,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": -0.9354143466934857,
+            "diferencia_media": -16.66666666666667,
+            "interpretacion": "Oportunidad de mejora. Recomendable reforzar conceptos."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 2.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 25.0,
+          "percentil": 37.5,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": -0.5188745216627708,
+            "diferencia_media": -12.5,
+            "interpretacion": "Conocimiento básico en esta área crítica. Importante dedicar tiempo a mejorar."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Mujer",
+          "estadisticas_grupo": {
+            "media": 54.54545454545455,
+            "mediana": 54.54545454545455,
+            "desviacion": 4.149413314433078,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": -4.545454545454547,
+            "percentil_en_grupo": 13.666083914614907
+          }
+        },
+        "rol": {
+          "grupo": "Vendedor",
+          "estadisticas_grupo": {
+            "media": 54.54545454545454,
+            "mediana": 50.0,
+            "desviacion": 7.872958216222168,
+            "participantes": 3
+          },
+          "comparativa": {
+            "diferencia_media": -4.54545454545454,
+            "percentil_en_grupo": 28.185143082538676
+          }
+        },
+        "sector": {
+          "grupo": "Logistica",
+          "estadisticas_grupo": {
+            "media": 49.35064935064935,
+            "mediana": 50.0,
+            "desviacion": 12.770104181361777,
+            "participantes": 7
+          },
+          "comparativa": {
+            "diferencia_media": 0.6493506493506516,
+            "percentil_en_grupo": 52.02771905019981
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": -5.3030303030303045,
+            "percentil_en_grupo": 16.768763658566076
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Aprender los fundamentos de Power BI desde cero",
+          "Implementar soluciones de BI en mi organización",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Diseño de visualizaciones efectivas",
+          "Implementación en entornos empresariales",
+          "Compartir y publicar informes",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Ninguna experiencia",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel": "intermedio-alto",
+            "diferencia_media": "+34.7%"
+          },
+          {
+            "seccion": "CONCEPTOS DE BASES DE DATOS",
+            "nivel": "intermedio",
+            "diferencia_media": "+12.5%"
+          }
+        ],
+        "areas_mejora": [
+          {
+            "seccion": "HABILIDADES EN EXCEL Y TABLAS",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-25.0%"
+          },
+          {
+            "seccion": "VISUALIZACIÓN DE DATOS",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-16.7%"
+          },
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "básico-intermedio",
+            "diferencia_media": "-12.5%"
+          }
+        ]
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [
+          {
+            "area": "HABILIDADES EN EXCEL Y TABLAS",
+            "prioridad": "media",
+            "descripcion": "Reforzar conocimientos en habilidades en excel y tablas",
+            "razon": "Rendimiento por debajo del promedio grupal (-25.0%)",
+            "impacto": "Fortalecer estas habilidades mejorará su eficiencia en el trabajo con datos y análisis preliminar."
+          },
+          {
+            "area": "VISUALIZACIÓN DE DATOS",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en visualización de datos",
+            "razon": "Rendimiento por debajo del promedio grupal (-16.7%)",
+            "impacto": "Mejorar en visualización potenciará su capacidad para comunicar insights de manera efectiva."
+          },
+          {
+            "area": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "prioridad": "alta",
+            "descripcion": "Reforzar conocimientos en conocimientos específicos de power bi",
+            "razon": "Rendimiento por debajo del promedio grupal (-12.5%)",
+            "impacto": "Profundizar en estas capacidades es esencial para aprovechar todo el potencial de Power BI."
+          }
+        ],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Vendedor",
+            "recomendacion": "Dominar análisis de ventas, segmentación de clientes y visualización de pipelines",
+            "justificacion": "El análisis de datos de ventas y clientes permite identificar oportunidades y optimizar estrategias",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "BUSCARV y funciones de búsqueda",
+              "Referencias de celda",
+              "Tablas dinámicas intermedias"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Selección de gráficos por propósito",
+              "Diseño básico de dashboards"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "alta",
+            "contenidos_clave": [
+              "Transformación de datos con Power Query",
+              "Introducción a DAX",
+              "Relaciones básicas"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "intermedio-alto",
+            "objetivo": "Alcanzar nivel avanzado",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Correlaciones y causalidad",
+              "Interpretación de resultados estadísticos"
+            ],
+            "enfoque_recomendado": "Proyectos desafiantes y estudio de casos avanzados con problemas del mundo real"
+          }
+        ]
+      }
+    },
+    "8": {
+      "id": 8,
+      "datos_demograficos": {
+        "sexo": "Mujer",
+        "rol": "Financiero",
+        "sector": "Finanzas",
+        "formacion": "Universitario"
+      },
+      "datos_diagnostico": {
+        "puntaje_total": 26.0,
+        "puntaje_maximo_posible": 44.0,
+        "porcentaje_general": 59.09090909090909,
+        "percentil": 87.5,
+        "nivel_general": "intermedio",
+        "comparativa_grupo": {
+          "estadisticas_globales": {
+            "media": 50.56818181818182,
+            "mediana": 51.13636363636364,
+            "desviacion_estandar": 12.31414368085252,
+            "min": 22.727272727272727,
+            "max": 63.63636363636363,
+            "q1": 50.0,
+            "q3": 57.38636363636364,
+            "preguntas_evaluadas": 44
+          },
+          "diferencia_media": 8.522727272727273,
+          "interpretacion": "Rendimiento dentro del rango promedio."
+        },
+        "theta_irt": 1.569632899762668,
+        "interpretacion_irt": "Habilidad latente alta en el dominio evaluado."
+      },
+      "analisis_por_seccion": {
+        "fundamentos": {
+          "titulo": "FUNDAMENTOS DE DATOS Y ANÁLISIS",
+          "puntaje": 4.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 44.44444444444444,
+          "percentil": 25.0,
+          "nivel": "básico-intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 21.771217022770163
+          },
+          "comparativa": {
+            "z_score": -0.4465631026530996,
+            "diferencia_media": -9.722222222222221,
+            "interpretacion": "Oportunidad de mejora. Recomendable reforzar conceptos."
+          },
+          "importancia": "alta",
+          "descripcion": "Conceptos básicos de tipos de datos, estadística descriptiva y patrones de análisis"
+        },
+        "excel": {
+          "titulo": "HABILIDADES EN EXCEL Y TABLAS",
+          "puntaje": 7.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 87.5,
+          "percentil": 100.0,
+          "nivel": "intermedio-alto",
+          "estadisticas_grupo": {
+            "media": 62.5,
+            "mediana": 62.5,
+            "desviacion": 14.94035761667992
+          },
+          "comparativa": {
+            "z_score": 1.6733200530681511,
+            "diferencia_media": 25.0,
+            "interpretacion": "Buen dominio en esta área. Fortaleza identificada."
+          },
+          "importancia": "media",
+          "descripcion": "Funciones de Excel, tablas dinámicas y formato condicional"
+        },
+        "databases": {
+          "titulo": "CONCEPTOS DE BASES DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 50.0,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 54.166666666666664,
+            "mediana": 55.55555555555556,
+            "desviacion": 13.849149497313608
+          },
+          "comparativa": {
+            "z_score": 0.10028694463571954,
+            "diferencia_media": 1.3888888888888928,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Bases de datos relacionales, uniones, normalización y consultas avanzadas"
+        },
+        "visualization": {
+          "titulo": "VISUALIZACIÓN DE DATOS",
+          "puntaje": 5.0,
+          "puntaje_maximo": 9.0,
+          "porcentaje": 55.55555555555556,
+          "percentil": 56.25,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 50.0,
+            "mediana": 55.55555555555556,
+            "desviacion": 17.81741612749496
+          },
+          "comparativa": {
+            "z_score": 0.31180478223116187,
+            "diferencia_media": 5.555555555555557,
+            "interpretacion": "Conocimiento adecuado. Dentro del promedio del grupo."
+          },
+          "importancia": "alta",
+          "descripcion": "Selección de gráficos adecuados y principios de diseño visual efectivo"
+        },
+        "powerbi": {
+          "titulo": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+          "puntaje": 5.0,
+          "puntaje_maximo": 8.0,
+          "porcentaje": 62.5,
+          "percentil": 87.5,
+          "nivel": "intermedio",
+          "estadisticas_grupo": {
+            "media": 37.5,
+            "mediana": 31.25,
+            "desviacion": 24.09060279148579
+          },
+          "comparativa": {
+            "z_score": 1.0377490433255416,
+            "diferencia_media": 25.0,
+            "interpretacion": "Excelente dominio en esta área crítica. Fortaleza destacada."
+          },
+          "importancia": "muy alta",
+          "descripcion": "Funcionalidades avanzadas de Power BI, lenguaje DAX y modelado de datos"
+        }
+      },
+      "comparativa_demografica": {
+        "sexo": {
+          "grupo": "Mujer",
+          "estadisticas_grupo": {
+            "media": 54.54545454545455,
+            "mediana": 54.54545454545455,
+            "desviacion": 4.149413314433078,
+            "participantes": 4
+          },
+          "comparativa": {
+            "diferencia_media": 4.545454545454547,
+            "percentil_en_grupo": 86.3339160853851
+          }
+        },
+        "rol": {
+          "grupo": "Financiero",
+          "estadisticas_grupo": {
+            "media": 59.09090909090909,
+            "mediana": 59.09090909090909,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        },
+        "sector": {
+          "grupo": "Finanzas",
+          "estadisticas_grupo": {
+            "media": 59.09090909090909,
+            "mediana": 59.09090909090909,
+            "desviacion": 0.0,
+            "participantes": 1
+          },
+          "comparativa": {
+            "diferencia_media": 0.0,
+            "percentil_en_grupo": 50.0
+          }
+        },
+        "formacion": {
+          "grupo": "Universitario",
+          "estadisticas_grupo": {
+            "media": 55.303030303030305,
+            "mediana": 54.54545454545455,
+            "desviacion": 5.504818825631801,
+            "participantes": 6
+          },
+          "comparativa": {
+            "diferencia_media": 3.787878787878789,
+            "percentil_en_grupo": 75.4305835647605
+          }
+        }
+      },
+      "objetivos_experiencia": {
+        "objetivos": [
+          "Implementar soluciones de BI en mi organización",
+          "Aprender modelado de datos y DAX avanzado",
+          "0.0"
+        ],
+        "areas_interes": [
+          "Modelado de datos",
+          "Creación de dashboards interactivos",
+          "Conexión a fuentes de datos",
+          "0.0"
+        ],
+        "experiencia_previa": [
+          "Excel avanzado (tablas dinámicas",
+          "fórmulas complejas);",
+          "0.0"
+        ],
+        "experiencia_powerbi": "Nunca lo he usado"
+      },
+      "fortalezas_debilidades": {
+        "fortalezas": [
+          {
+            "seccion": "HABILIDADES EN EXCEL Y TABLAS",
+            "nivel": "intermedio-alto",
+            "diferencia_media": "+25.0%"
+          },
+          {
+            "seccion": "CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel": "intermedio",
+            "diferencia_media": "+25.0%"
+          }
+        ],
+        "areas_mejora": []
+      },
+      "recomendaciones": {
+        "prioridades_aprendizaje": [],
+        "recomendaciones_por_perfil": [
+          {
+            "perfil": "Financiero",
+            "recomendacion": "Enfocarse en funciones DAX de inteligencia de tiempo (YoY, MoM, QoQ)",
+            "justificacion": "El análisis comparativo temporal es fundamental para el análisis financiero",
+            "prioridad": "alta"
+          },
+          {
+            "perfil": "Financiero",
+            "recomendacion": "Aprender técnicas de visualización específicas para datos financieros",
+            "justificacion": "Comunicar efectivamente métricas financieras requiere visualizaciones específicas como waterfalls y charts combinados",
+            "prioridad": "media"
+          },
+          {
+            "perfil": "Experiencia con Power BI",
+            "recomendacion": "Comenzar con fundamentos básicos de la interfaz y conceptos clave",
+            "justificacion": "Sin experiencia previa, es esencial construir conocimientos fundamentales antes de avanzar",
+            "prioridad": "crítica"
+          },
+          {
+            "perfil": "Sector Financiero",
+            "recomendacion": "Profundizar en DAX para análisis financiero y comparativo temporal",
+            "justificacion": "El sector financiero requiere análisis sofisticados de series temporales y cálculos específicos",
+            "prioridad": "alta"
+          }
+        ],
+        "ruta_sugerida": [
+          {
+            "orden": 1,
+            "fase": "Fase 1: FUNDAMENTOS DE DATOS Y ANÁLISIS",
+            "nivel_actual": "básico-intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Identificación de outliers",
+              "Medidas de dispersión",
+              "Patrones en datos"
+            ],
+            "enfoque_recomendado": "Comenzar con tutoriales introductorios y ejercicios muy guiados para construir confianza"
+          },
+          {
+            "orden": 2,
+            "fase": "Fase 2: CONCEPTOS DE BASES DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Normalización hasta 3NF",
+              "Técnicas de JOIN avanzadas"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 3,
+            "fase": "Fase 3: VISUALIZACIÓN DE DATOS",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "media",
+            "contenidos_clave": [
+              "Principios de integridad visual",
+              "Técnicas de reducción de carga cognitiva"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 4,
+            "fase": "Fase 4: CONOCIMIENTOS ESPECÍFICOS DE POWER BI",
+            "nivel_actual": "intermedio",
+            "objetivo": "Alcanzar nivel intermedio-alto",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Medidas DAX intermedias",
+              "Modelado en esquema estrella",
+              "Funciones de contexto"
+            ],
+            "enfoque_recomendado": "Enfoque práctico con proyectos de complejidad media y profundización conceptual"
+          },
+          {
+            "orden": 5,
+            "fase": "Fase 5: HABILIDADES EN EXCEL Y TABLAS",
+            "nivel_actual": "intermedio-alto",
+            "objetivo": "Alcanzar nivel avanzado",
+            "prioridad": "baja",
+            "contenidos_clave": [
+              "Funciones anidadas complejas",
+              "Técnicas avanzadas de tablas dinámicas"
+            ],
+            "enfoque_recomendado": "Proyectos desafiantes y estudio de casos avanzados con problemas del mundo real"
+          }
+        ]
+      }
+    }
+  }
+}

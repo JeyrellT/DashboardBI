@@ -1,0 +1,287 @@
+{
+    "model_type": "2PL (girth)",
+    "parameters": {
+        "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?": {
+            "difficulty": -6.0,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?": {
+            "difficulty": -5.901859027215721,
+            "discrimination": 0.3365694325561811,
+            "guessing": 0.0
+        },
+        "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?": {
+            "difficulty": -0.3383891397723392,
+            "discrimination": 4.999994102993483,
+            "guessing": 0.0
+        },
+        "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?": {
+            "difficulty": 0.9569450385207564,
+            "discrimination": 0.5740665913903512,
+            "guessing": 0.0
+        },
+        "¿por qué es importante identificar correctamente si una variable es cuantitativa o cualitativa al crear un reporte?": {
+            "difficulty": -1.2224581418000195,
+            "discrimination": 4.999993483354562,
+            "guessing": 0.0
+        },
+        "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?": {
+            "difficulty": -2.5794420790028183,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?": {
+            "difficulty": 5.89041310291187,
+            "discrimination": 0.3365601469806317,
+            "guessing": 0.0
+        },
+        "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:": {
+            "difficulty": -6.863881775897141e-05,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p9. antes de generar un reporte en power bi, ¿cuál es uno de los pasos fundamentales en el análisis de datos?": {
+            "difficulty": -1.2224581418000198,
+            "discrimination": 4.999993483354556,
+            "guessing": 0.0
+        },
+        "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?": {
+            "difficulty": 6.0,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p11. ¿qué son las tablas dinámicas en excel?": {
+            "difficulty": -1.2224581418000198,
+            "discrimination": 4.999993483354556,
+            "guessing": 0.0
+        },
+        "p12. para resaltar datos en excel, ¿qué opción utilizarías?": {
+            "difficulty": -6.863881775897141e-05,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?": {
+            "difficulty": -5.543796283959588,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p14. en excel, la referencia $a$1:": {
+            "difficulty": -2.722486245586901,
+            "discrimination": 0.41924065193071863,
+            "guessing": 0.0
+        },
+        "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?": {
+            "difficulty": 6.0,
+            "discrimination": 4.999996486833292,
+            "guessing": 0.0
+        },
+        "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?": {
+            "difficulty": -5.543796283959588,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?": {
+            "difficulty": 0.810854791685886,
+            "discrimination": 0.6984084695741607,
+            "guessing": 0.0
+        },
+        "¿qué es una clave primaria en una base de datos?": {
+            "difficulty": -3.7980585516221484e-05,
+            "discrimination": 0.36973858019290506,
+            "guessing": 0.0
+        },
+        "¿qué significa el término \"tabla\" en una base de datos?": {
+            "difficulty": 6.0,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "¿para qué sirven las relaciones entre tablas?": {
+            "difficulty": -5.906304364240163,
+            "discrimination": 0.33657667294800847,
+            "guessing": 0.0
+        },
+        "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?": {
+            "difficulty": -0.77738445684742,
+            "discrimination": 0.735673369475812,
+            "guessing": 0.0
+        },
+        "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?": {
+            "difficulty": 5.897199514043667,
+            "discrimination": 0.33656574408563206,
+            "guessing": 0.0
+        },
+        "¿qué es la normalización de datos?": {
+            "difficulty": -6.863881775897141e-05,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?": {
+            "difficulty": 0.7163803220215601,
+            "discrimination": 4.999993245591694,
+            "guessing": 0.0
+        },
+        "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?": {
+            "difficulty": -2.5794420790028183,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?": {
+            "difficulty": 0.4718569635390556,
+            "discrimination": 1.5506921682451438,
+            "guessing": 0.0
+        },
+        "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?": {
+            "difficulty": -0.716403083618988,
+            "discrimination": 4.999994858622457,
+            "guessing": 0.0
+        },
+        "¿cuál es el propósito principal de un dashboard?": {
+            "difficulty": -5.906304364240163,
+            "discrimination": 0.33657667294800847,
+            "guessing": 0.0
+        },
+        "¿por qué es importante incluir títulos claros en las visualizaciones?": {
+            "difficulty": -5.543796283959588,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?": {
+            "difficulty": 5.896791925195123,
+            "discrimination": 0.33656540792598333,
+            "guessing": 0.0
+        },
+        "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?": {
+            "difficulty": -9.038247195396177e-06,
+            "discrimination": 4.999993977738379,
+            "guessing": 0.0
+        },
+        "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?": {
+            "difficulty": 5.8876630350234604,
+            "discrimination": 0.336557878857108,
+            "guessing": 0.0
+        },
+        "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?": {
+            "difficulty": 2.072633459862563,
+            "discrimination": 0.2502411201362995,
+            "guessing": 0.0
+        },
+        "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?": {
+            "difficulty": 1.2224228063392493,
+            "discrimination": 4.999994760195121,
+            "guessing": 0.0
+        },
+        "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?": {
+            "difficulty": -1.2224581417929354,
+            "discrimination": 4.999993483610284,
+            "guessing": 0.0
+        },
+        "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)": {
+            "difficulty": 5.887665813314757,
+            "discrimination": 0.3365578811485088,
+            "guessing": 0.0
+        },
+        "¿qué permite hacer power query en power bi?": {
+            "difficulty": 1.7808478893907393,
+            "discrimination": 0.6765300644656477,
+            "guessing": 0.0
+        },
+        "¿qué es dax en power bi?": {
+            "difficulty": -6.863881775897141e-05,
+            "discrimination": 0.2000034181083939,
+            "guessing": 0.0
+        },
+        "¿qué diferencia hay entre una columna calculada y una medida en power bi?": {
+            "difficulty": -0.5678789615028401,
+            "discrimination": 1.129310645765758,
+            "guessing": 0.0
+        },
+        "¿qué tipo de relación se establece por defecto entre tablas en power bi?": {
+            "difficulty": 0.7163803220215601,
+            "discrimination": 4.999993245591694,
+            "guessing": 0.0
+        },
+        "¿qué función dax utilizarías para cambiar el contexto de filtro?": {
+            "difficulty": 0.7163803220215601,
+            "discrimination": 4.999993245591694,
+            "guessing": 0.0
+        },
+        "¿qué es un esquema en estrella en el modelado de datos de power bi?": {
+            "difficulty": -0.4971302510842016,
+            "discrimination": 1.4069426015658544,
+            "guessing": 0.0
+        },
+        "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?": {
+            "difficulty": 0.8617650667996558,
+            "discrimination": 0.6489842747252461,
+            "guessing": 0.0
+        }
+    },
+    "theta_values": {
+        "1": -0.6273423757853611,
+        "2": -2.0395052757452263,
+        "3": 0.26590345449000313,
+        "4": 0.21195616652533703,
+        "5": 0.9963703362090448,
+        "6": -0.4215799399293261,
+        "7": -0.12573988482735193,
+        "8": 1.569632899762668
+    },
+    "categorized_items": {
+        "muy_facil": [
+            "p1. ¿qué tipo de dato es más apropiado para un número de teléfono?",
+            "p2. ¿cuál de los siguientes es un ejemplo de dato cualitativo?",
+            "p6. al examinar un conjunto de datos, ¿cuál es el enfoque más adecuado al encontrar un valor atípico?",
+            "p13. ¿qué función utilizarías para buscar un valor en la primera columna de una tabla y devolver un valor correspondiente de otra columna?",
+            "p14. en excel, la referencia $a$1:",
+            "p16. para sumar valores que cumplan múltiples criterios, ¿qué función es más adecuada?",
+            "¿para qué sirven las relaciones entre tablas?",
+            "¿cuál de las siguientes no es una forma normal en diseño de bases de datos?",
+            "¿cuál es el propósito principal de un dashboard?",
+            "¿por qué es importante incluir títulos claros en las visualizaciones?"
+        ],
+        "facil": [
+            "¿por qué es importante identificar correctamente si una variable es cuantitativa o cualitativa al crear un reporte?",
+            "p9. antes de generar un reporte en power bi, ¿cuál es uno de los pasos fundamentales en el análisis de datos?",
+            "p11. ¿qué son las tablas dinámicas en excel?",
+            "¿qué tipo de relación existe entre una tabla de \"clientes\" y una tabla de \"pedidos\" donde cada cliente puede realizar múltiples pedidos?",
+            "¿qué tipo de gráfico es más adecuado para comparar valores entre diferentes categorías?",
+            "en el contexto de visualización de datos, ¿qué significa el principio de \"reducción de la carga cognitiva\"?",
+            "¿qué diferencia hay entre una columna calculada y una medida en power bi?"
+        ],
+        "media": [
+            "p3. en un estudio de satisfacción del cliente, ¿cuál de las siguientes variables es de naturaleza ordinal?",
+            "p8. en un gráfico de ventas mensuales durante 3 años consecutivos que muestra picos recurrentes en diciembre, esto indica:",
+            "p12. para resaltar datos en excel, ¿qué opción utilizarías?",
+            "¿qué es una clave primaria en una base de datos?",
+            "¿qué es la normalización de datos?",
+            "para calcular subtotales agrupados por categoría y luego por subcategoría, con la posibilidad de expandir y contraer niveles, ¿qué operación es fundamental?",
+            "¿cuántas categorías es recomendable mostrar como máximo en un gráfico circular para que sea efectivo?",
+            "¿qué es dax en power bi?",
+            "¿qué es un esquema en estrella en el modelado de datos de power bi?"
+        ],
+        "dificil": [
+            "p4. cuando un conjunto de datos tiene valores atípicos (outliers), ¿qué medida es más representativa?",
+            "p18. ¿qué técnica utilizarías para crear un cálculo que muestre la contribución porcentual de cada valor a un total en una tabla dinámica?",
+            "para mostrar todos los clientes, incluso aquellos que no han realizado compras, ¿qué tipo de unión usarías entre las tablas \"clientes\" y \"ventas\"?",
+            "para representar datos con tres variables donde una es categórica y dos son cuantitativas, ¿qué visualización sería más adecuada?",
+            "¿qué tipo de relación se establece por defecto entre tablas en power bi?",
+            "¿qué función dax utilizarías para cambiar el contexto de filtro?",
+            "para analizar datos año tras año (yoy), ¿qué funciones de inteligencia de tiempo son útiles en dax?"
+        ],
+        "muy_dificil": [
+            "p7. ¿qué medida de dispersión es menos sensible a valores atípicos?",
+            "p10. ¿qué función de excel utilizarías para sumar un rango de celdas?",
+            "p15. ¿cuál de estos formatos es mejor para el análisis en herramientas de bi como power bi?",
+            "¿qué significa el término \"tabla\" en una base de datos?",
+            "cuando necesitas combinar información de dos tablas relacionadas, ¿qué operación utilizas?",
+            "¿qué visualización utilizarías para analizar la correlación entre el precio de un producto y su cantidad vendida?",
+            "¿qué principio de diseño visual recomienda comenzar los ejes numéricos en cero?",
+            "¿qué técnica visual es más efectiva para mostrar la composición de un todo y también las contribuciones individuales a lo largo del tiempo?",
+            "¿cuáles son los principales componentes de power bi? (selecciona todos los que apliquen)",
+            "¿qué permite hacer power query en power bi?"
+        ]
+    },
+    "status": "success",
+    "model": "girth"
+}

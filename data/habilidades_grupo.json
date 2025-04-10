@@ -1,0 +1,163 @@
+{
+    "atención al detalle": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 6,
+            "medio": 2,
+            "alto": 0,
+            "muy_alto": 0
+        },
+        "porcentaje_promedio": 28.125,
+        "porcentaje_mediana": 25.0,
+        "desviacion_estandar": 14.986973510352248,
+        "porcentaje_minimo": 0.0,
+        "porcentaje_maximo": 50.0,
+        "fortaleza_grupal": "baja",
+        "homogeneidad": "homogéneo",
+        "definicion": "capacidad para notar y dar importancia a pequeños detalles que pueden tener gran impacto",
+        "relevancia_bi": "importante para evitar errores en fórmulas, relaciones y visualizaciones",
+        "comportamientos_observables": [
+            "selecciona tipos de datos precisos para cada caso",
+            "comprende distinciones técnicas sutiles pero importantes",
+            "detecta inconsistencias en los datos y modelos"
+        ]
+    },
+    "comunicación de datos": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 0,
+            "medio": 4,
+            "alto": 2,
+            "muy_alto": 2
+        },
+        "porcentaje_promedio": 68.75,
+        "porcentaje_mediana": 62.5,
+        "desviacion_estandar": 20.72890493972125,
+        "porcentaje_minimo": 50.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "alta",
+        "homogeneidad": "heterogéneo",
+        "definicion": "habilidad para presentar información compleja de manera accesible y significativa",
+        "relevancia_bi": "fundamental para convertir datos en insights accionables para la organización",
+        "comportamientos_observables": [
+            "selecciona visualizaciones según la historia que cuentan los datos",
+            "estructura información jerárquicamente para facilitar la comprensión",
+            "adapta el nivel de detalle según la audiencia"
+        ]
+    },
+    "pensamiento sistemático": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 1,
+            "medio": 3,
+            "alto": 4,
+            "muy_alto": 0
+        },
+        "porcentaje_promedio": 59.375,
+        "porcentaje_mediana": 62.5,
+        "desviacion_estandar": 17.39926363384382,
+        "porcentaje_minimo": 25.0,
+        "porcentaje_maximo": 75.0,
+        "fortaleza_grupal": "media",
+        "homogeneidad": "homogéneo",
+        "definicion": "capacidad para entender sistemas complejos, sus interconexiones y organización jerárquica",
+        "relevancia_bi": "crucial para diseñar modelos de datos coherentes y eficientes en power bi",
+        "comportamientos_observables": [
+            "establece relaciones apropiadas entre tablas",
+            "organiza datos considerando su estructura natural",
+            "planifica modelos dimensionales escalables"
+        ]
+    },
+    "perspectiva de usuario": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 0,
+            "medio": 1,
+            "alto": 2,
+            "muy_alto": 5
+        },
+        "porcentaje_promedio": 83.33333333333333,
+        "porcentaje_mediana": 100.0,
+        "desviacion_estandar": 23.570226039551585,
+        "porcentaje_minimo": 33.33333333333333,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "muy alta",
+        "homogeneidad": "heterogéneo",
+        "definicion": "capacidad para adoptar el punto de vista del usuario final y diseñar considerando sus necesidades",
+        "relevancia_bi": "esencial para crear soluciones de bi que respondan a las necesidades del negocio",
+        "comportamientos_observables": [
+            "prioriza la facilidad de interpretación",
+            "considera el contexto y conocimientos del usuario final",
+            "diseña interfaces intuitivas y eficientes"
+        ]
+    },
+    "pensamiento analítico": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 1,
+            "medio": 4,
+            "alto": 1,
+            "muy_alto": 2
+        },
+        "porcentaje_promedio": 59.375,
+        "porcentaje_mediana": 50.0,
+        "desviacion_estandar": 30.45873232752801,
+        "porcentaje_minimo": 0.0,
+        "porcentaje_maximo": 100.0,
+        "fortaleza_grupal": "media",
+        "homogeneidad": "heterogéneo",
+        "definicion": "capacidad para descomponer problemas complejos, identificar patrones y llegar a conclusiones lógicas basadas en datos",
+        "relevancia_bi": "esencial para interpretar correctamente los datos y crear visualizaciones significativas",
+        "comportamientos_observables": [
+            "identifica problemas en calidad de datos antes de visualizarlos",
+            "investiga causas de anomalías en lugar de ignorarlas",
+            "reconoce patrones temporales en los datos"
+        ]
+    },
+    "mentalidad de optimización": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 5,
+            "medio": 2,
+            "alto": 1,
+            "muy_alto": 0
+        },
+        "porcentaje_promedio": 31.25,
+        "porcentaje_mediana": 25.0,
+        "desviacion_estandar": 24.206145913796355,
+        "porcentaje_minimo": 0.0,
+        "porcentaje_maximo": 75.0,
+        "fortaleza_grupal": "baja",
+        "homogeneidad": "heterogéneo",
+        "definicion": "tendencia a buscar la eficiencia y rendimiento óptimo en soluciones",
+        "relevancia_bi": "crucial para crear soluciones de bi escalables y con buen rendimiento",
+        "comportamientos_observables": [
+            "selecciona estructuras de datos eficientes",
+            "utiliza las herramientas adecuadas para cada tarea",
+            "considera el rendimiento en el diseño de modelos"
+        ]
+    },
+    "orientación visual": {
+        "participantes": 8,
+        "distribucion": {
+            "bajo": 2,
+            "medio": 2,
+            "alto": 4,
+            "muy_alto": 0
+        },
+        "porcentaje_promedio": 56.25,
+        "porcentaje_mediana": 62.5,
+        "desviacion_estandar": 20.72890493972125,
+        "porcentaje_minimo": 25.0,
+        "porcentaje_maximo": 75.0,
+        "fortaleza_grupal": "media",
+        "homogeneidad": "heterogéneo",
+        "definicion": "capacidad para comunicar información de manera efectiva a través de representaciones visuales",
+        "relevancia_bi": "fundamental para crear dashboards que transmitan información de forma clara e intuitiva",
+        "comportamientos_observables": [
+            "prioriza la claridad visual sobre la complejidad",
+            "selecciona el tipo de visualización adecuado según el propósito",
+            "diseña considerando la percepción del usuario"
+        ]
+    }
+}

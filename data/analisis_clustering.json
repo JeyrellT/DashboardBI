@@ -1,0 +1,162 @@
+{
+    "status": "success",
+    "n_clusters": 2,
+    "k_selection_method": "silhouette",
+    "silhouette_scores_by_k": [
+        0.22200094996311048,
+        0.21129931160149923,
+        0.15456180246630222,
+        0.12996876445109973
+    ],
+    "inertias_by_k": null,
+    "clusters_assignment": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0
+    },
+    "cluster_profiles": {
+        "0": {
+            "n_participantes": 5,
+            "participantes": [
+                3,
+                4,
+                5,
+                6,
+                8
+            ],
+            "nombre_perfil": "Optimizador de Soluciones",
+            "habilidades_distintivas": [
+                {
+                    "skill": "mentalidad de optimización",
+                    "promedio_cluster": 45.0,
+                    "promedio_global": 31.25,
+                    "diferencia": 13.75
+                },
+                {
+                    "skill": "orientación visual",
+                    "promedio_cluster": 70.0,
+                    "promedio_global": 56.25,
+                    "diferencia": 13.75
+                },
+                {
+                    "skill": "comunicación de datos",
+                    "promedio_cluster": 80.0,
+                    "promedio_global": 68.75,
+                    "diferencia": 11.25
+                }
+            ],
+            "habilidades_debiles": [],
+            "perfil_completo": {
+                "atención al detalle": 35.0,
+                "comunicación de datos": 80.0,
+                "mentalidad de optimización": 45.0,
+                "orientación visual": 70.0,
+                "pensamiento analítico": 60.0,
+                "pensamiento sistemático": 60.0,
+                "perspectiva de usuario": 93.33333333333333
+            }
+        },
+        "1": {
+            "n_participantes": 3,
+            "participantes": [
+                1,
+                2,
+                7
+            ],
+            "nombre_perfil": "Perfil General",
+            "habilidades_distintivas": [],
+            "habilidades_debiles": [
+                {
+                    "skill": "mentalidad de optimización",
+                    "promedio_cluster": 8.333333333333334,
+                    "promedio_global": 31.25,
+                    "diferencia": -22.916666666666664
+                },
+                {
+                    "skill": "orientación visual",
+                    "promedio_cluster": 33.333333333333336,
+                    "promedio_global": 56.25,
+                    "diferencia": -22.916666666666664
+                },
+                {
+                    "skill": "comunicación de datos",
+                    "promedio_cluster": 50.0,
+                    "promedio_global": 68.75,
+                    "diferencia": -18.75
+                }
+            ],
+            "perfil_completo": {
+                "atención al detalle": 16.666666666666668,
+                "comunicación de datos": 50.0,
+                "mentalidad de optimización": 8.333333333333334,
+                "orientación visual": 33.333333333333336,
+                "pensamiento analítico": 58.333333333333336,
+                "pensamiento sistemático": 58.333333333333336,
+                "perspectiva de usuario": 66.66666666666667
+            }
+        }
+    },
+    "visualization_data": [
+        {
+            "participante": 1,
+            "cluster": 1,
+            "x": -0.8208320107220687,
+            "y": 1.549910483892779
+        },
+        {
+            "participante": 2,
+            "cluster": 1,
+            "x": -2.147856006477389,
+            "y": -2.6970057117097133
+        },
+        {
+            "participante": 3,
+            "cluster": 0,
+            "x": 1.2689004439312668,
+            "y": -0.35030063285992935
+        },
+        {
+            "participante": 4,
+            "cluster": 0,
+            "x": 0.8104890317666174,
+            "y": 0.5857318145605512
+        },
+        {
+            "participante": 5,
+            "cluster": 0,
+            "x": 2.240286880078896,
+            "y": -0.9189043650328041
+        },
+        {
+            "participante": 6,
+            "cluster": 0,
+            "x": 1.5264375971840698,
+            "y": 0.8051469586202373
+        },
+        {
+            "participante": 7,
+            "cluster": 1,
+            "x": -2.8706311320399496,
+            "y": 1.2969407444190613
+        },
+        {
+            "participante": 8,
+            "cluster": 0,
+            "x": -0.006794803721442617,
+            "y": -0.27151929189018076
+        }
+    ],
+    "cluster_recommendations": {
+        "0": [
+            "Para Cluster 1 (Optimizador de Soluciones): Potenciar habilidades distintivas en mentalidad de optimización, orientación visual, comunicación de datos."
+        ],
+        "1": [
+            "Para Cluster 2 (Perfil General): Considerar refuerzo en mentalidad de optimización, orientación visual, comunicación de datos."
+        ]
+    }
+}

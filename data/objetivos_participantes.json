@@ -1,0 +1,185 @@
+{
+    "objetivos_individuales": {
+        "1": [
+            "Implementar soluciones de BI en mi organización",
+            "Mejorar mis habilidades en visualización de datos"
+        ],
+        "2": [
+            "Aprender los fundamentos de Power BI desde cero",
+            "Implementar soluciones de BI en mi organización"
+        ],
+        "3": [
+            "Aprender los fundamentos de Power BI desde cero",
+            "Complementar mis habilidades de análisis de datos"
+        ],
+        "4": [
+            "Aprender los fundamentos de Power BI desde cero",
+            "Aprender modelado de datos y DAX avanzado"
+        ],
+        "5": [
+            "Aprender los fundamentos de Power BI desde cero",
+            "Mejorar mis habilidades en visualización de datos"
+        ],
+        "6": [
+            "Potenciar mi perfil profesional",
+            "Aprender los fundamentos de Power BI desde cero"
+        ],
+        "7": [
+            "Aprender los fundamentos de Power BI desde cero",
+            "Implementar soluciones de BI en mi organización"
+        ],
+        "8": [
+            "Implementar soluciones de BI en mi organización",
+            "Aprender modelado de datos y DAX avanzado"
+        ]
+    },
+    "areas_interes_individuales": {
+        "1": [
+            "Conexión a fuentes de datos",
+            "Lenguaje DAX y cálculos",
+            "Creación de dashboards interactivos"
+        ],
+        "2": [
+            "Creación de dashboards interactivos",
+            "Compartir y publicar informes"
+        ],
+        "3": [
+            "Implementación en entornos empresariales",
+            "Creación de dashboards interactivos",
+            "Transformación y limpieza de datos"
+        ],
+        "4": [
+            "Diseño de visualizaciones efectivas",
+            "Creación de dashboards interactivos",
+            "Implementación en entornos empresariales"
+        ],
+        "5": [
+            "Transformación y limpieza de datos",
+            "Lenguaje DAX y cálculos",
+            "Creación de dashboards interactivos"
+        ],
+        "6": [
+            "Creación de dashboards interactivos",
+            "Compartir y publicar informes",
+            "Implementación en entornos empresariales"
+        ],
+        "7": [
+            "Diseño de visualizaciones efectivas",
+            "Implementación en entornos empresariales",
+            "Compartir y publicar informes"
+        ],
+        "8": [
+            "Modelado de datos",
+            "Creación de dashboards interactivos",
+            "Conexión a fuentes de datos"
+        ]
+    },
+    "experiencia_previa_individual": {
+        "1": [
+            "Ninguna experiencia"
+        ],
+        "2": [
+            "Ninguna experiencia"
+        ],
+        "3": [
+            "Ninguna experiencia"
+        ],
+        "4": [
+            "Ninguna experiencia"
+        ],
+        "5": [
+            "Excel avanzado (tablas dinámicas, fórmulas complejas)"
+        ],
+        "6": [
+            "Ninguna experiencia"
+        ],
+        "7": [
+            "Ninguna experiencia"
+        ],
+        "8": [
+            "Excel avanzado (tablas dinámicas, fórmulas complejas)"
+        ]
+    },
+    "analisis_objetivos": {
+        "conteo": {
+            "Implementar soluciones de BI en mi organización": 4,
+            "Mejorar mis habilidades en visualización de datos": 2,
+            "Aprender los fundamentos de Power BI desde cero": 6,
+            "Complementar mis habilidades de análisis de datos": 1,
+            "Aprender modelado de datos y DAX avanzado": 2,
+            "Potenciar mi perfil profesional": 1
+        },
+        "mas_comunes": [
+            [
+                "Aprender los fundamentos de Power BI desde cero",
+                6
+            ],
+            [
+                "Implementar soluciones de BI en mi organización",
+                4
+            ],
+            [
+                "Mejorar mis habilidades en visualización de datos",
+                2
+            ],
+            [
+                "Aprender modelado de datos y DAX avanzado",
+                2
+            ],
+            [
+                "Complementar mis habilidades de análisis de datos",
+                1
+            ]
+        ]
+    },
+    "analisis_areas": {
+        "conteo": {
+            "Conexión a fuentes de datos": 2,
+            "Lenguaje DAX y cálculos": 2,
+            "Creación de dashboards interactivos": 7,
+            "Compartir y publicar informes": 3,
+            "Implementación en entornos empresariales": 4,
+            "Transformación y limpieza de datos": 2,
+            "Diseño de visualizaciones efectivas": 2,
+            "Modelado de datos": 1
+        },
+        "mas_comunes": [
+            [
+                "Creación de dashboards interactivos",
+                7
+            ],
+            [
+                "Implementación en entornos empresariales",
+                4
+            ],
+            [
+                "Compartir y publicar informes",
+                3
+            ],
+            [
+                "Conexión a fuentes de datos",
+                2
+            ],
+            [
+                "Lenguaje DAX y cálculos",
+                2
+            ]
+        ]
+    },
+    "analisis_experiencia": {
+        "conteo": {
+            "Ninguna experiencia": 6,
+            "Excel avanzado (tablas dinámicas, fórmulas complejas)": 2
+        },
+        "mas_comunes": [
+            [
+                "Ninguna experiencia",
+                6
+            ],
+            [
+                "Excel avanzado (tablas dinámicas, fórmulas complejas)",
+                2
+            ]
+        ]
+    }
+}

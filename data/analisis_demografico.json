@@ -1,0 +1,82 @@
+{
+    "Sexo": [
+        {
+            "categoria": "Hombre",
+            "promedio": 20.5,
+            "mediana": 22.0,
+            "cantidad": 4
+        },
+        {
+            "categoria": "Mujer",
+            "promedio": 24.0,
+            "mediana": 24.0,
+            "cantidad": 4
+        }
+    ],
+    "Rol o Cargo": [
+        {
+            "categoria": "Analista",
+            "promedio": 22.5,
+            "mediana": 22.5,
+            "cantidad": 2
+        },
+        {
+            "categoria": "Director",
+            "promedio": 25.0,
+            "mediana": 25.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Financiero",
+            "promedio": 26.0,
+            "mediana": 26.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Supervisor",
+            "promedio": 10.0,
+            "mediana": 10.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Vendedor",
+            "promedio": 24.0,
+            "mediana": 22.0,
+            "cantidad": 3
+        }
+    ],
+    "Sector o Industria": [
+        {
+            "categoria": "Finanzas",
+            "promedio": 26.0,
+            "mediana": 26.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Logistica",
+            "promedio": 21.714285714285715,
+            "mediana": 22.0,
+            "cantidad": 7
+        }
+    ],
+    "Nivel de Formación Académica": [
+        {
+            "categoria": "Autodidacta",
+            "promedio": 10.0,
+            "mediana": 10.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Técnico",
+            "promedio": 22.0,
+            "mediana": 22.0,
+            "cantidad": 1
+        },
+        {
+            "categoria": "Universitario",
+            "promedio": 24.333333333333332,
+            "mediana": 24.0,
+            "cantidad": 6
+        }
+    ]
+}

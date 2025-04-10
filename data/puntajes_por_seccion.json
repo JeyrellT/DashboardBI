@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "Porcentaje_Fundamentos": 55.00000000000001,
+        "Porcentaje_Excel": 69.23076923076923,
+        "Porcentaje_Bases_Datos": 64.28571428571429,
+        "Porcentaje_Visualizacion": 33.33333333333333,
+        "Porcentaje_PowerBI": 52.63157894736842,
+        "Porcentaje_General": 54.89627915943705
+    },
+    {
+        "id": 2,
+        "Porcentaje_Fundamentos": 30.0,
+        "Porcentaje_Excel": 61.53846153846154,
+        "Porcentaje_Bases_Datos": 28.57142857142857,
+        "Porcentaje_Visualizacion": 8.333333333333332,
+        "Porcentaje_PowerBI": 0.0,
+        "Porcentaje_General": 25.68864468864469
+    },
+    {
+        "id": 3,
+        "Porcentaje_Fundamentos": 55.00000000000001,
+        "Porcentaje_Excel": 61.53846153846154,
+        "Porcentaje_Bases_Datos": 57.14285714285714,
+        "Porcentaje_Visualizacion": 75.0,
+        "Porcentaje_PowerBI": 31.57894736842105,
+        "Porcentaje_General": 56.05205320994795
+    },
+    {
+        "id": 4,
+        "Porcentaje_Fundamentos": 60.0,
+        "Porcentaje_Excel": 61.53846153846154,
+        "Porcentaje_Bases_Datos": 57.14285714285714,
+        "Porcentaje_Visualizacion": 58.333333333333336,
+        "Porcentaje_PowerBI": 26.31578947368421,
+        "Porcentaje_General": 52.66608829766725
+    },
+    {
+        "id": 5,
+        "Porcentaje_Fundamentos": 65.0,
+        "Porcentaje_Excel": 76.92307692307693,
+        "Porcentaje_Bases_Datos": 64.28571428571429,
+        "Porcentaje_Visualizacion": 66.66666666666666,
+        "Porcentaje_PowerBI": 63.1578947368421,
+        "Porcentaje_General": 67.20667052245999
+    },
+    {
+        "id": 6,
+        "Porcentaje_Fundamentos": 60.0,
+        "Porcentaje_Excel": 61.53846153846154,
+        "Porcentaje_Bases_Datos": 57.14285714285714,
+        "Porcentaje_Visualizacion": 50.0,
+        "Porcentaje_PowerBI": 42.10526315789473,
+        "Porcentaje_General": 54.15731636784268
+    },
+    {
+        "id": 7,
+        "Porcentaje_Fundamentos": 65.0,
+        "Porcentaje_Excel": 38.46153846153847,
+        "Porcentaje_Bases_Datos": 57.14285714285714,
+        "Porcentaje_Visualizacion": 41.66666666666667,
+        "Porcentaje_PowerBI": 36.84210526315789,
+        "Porcentaje_General": 47.82263350684404
+    },
+    {
+        "id": 8,
+        "Porcentaje_Fundamentos": 70.0,
+        "Porcentaje_Excel": 92.3076923076923,
+        "Porcentaje_Bases_Datos": 71.42857142857143,
+        "Porcentaje_Visualizacion": 66.66666666666666,
+        "Porcentaje_PowerBI": 57.89473684210527,
+        "Porcentaje_General": 71.65953344900714
+    }
+]
